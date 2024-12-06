@@ -7,7 +7,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # Project 1
 
 Photo
-[See more](./project1.html). 
+[See more](./project1.md). 
 
 Objectives:
 * first
