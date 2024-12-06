@@ -7,7 +7,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # Project 1
 
 Photo
-[Omnifood project - test](https://alinaaleks.github.io/omnifood-project/). 
+[See more](./project1.html). 
 
 Objectives:
 * first
@@ -20,3 +20,6 @@ Insights:
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
+>
+> img-test
+> ![Duplicate-gif](./assets/img/duplicate.gif)
