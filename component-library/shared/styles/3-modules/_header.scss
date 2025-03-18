@@ -55,6 +55,24 @@
     }
   }
 
+  
+.telegram-icon svg {
+  width: .9em;  /* Matches Ionicons */
+  height: .9em;
+  fill: currentColor; /* Inherits the same color */
+  position: relative;
+  top: 1px;
+  left: -1px;
+}
+
+&:hover {
+  color: $white;
+
+  &::after {
+    transform: translate3d(-50%,-50%,0) scale(0.9);
+  }
+}
+
   @media only screen and (max-width: $desktop) {
     position: fixed;
     top: 0;
