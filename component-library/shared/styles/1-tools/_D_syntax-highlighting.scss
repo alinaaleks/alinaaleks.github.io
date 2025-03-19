@@ -6,7 +6,9 @@
   background: $syntax-highlighting-background;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: #f9f9f9;
+    border: 0.1px solid #e3e3e3;
+    border-radius: 5px;
   }
 
   .c     { color: #998; font-style: italic } // Comment
@@ -75,8 +77,39 @@
   Audio Element
 */
 .now-playing {
-  font-size: 0.8em;   /* Smaller text */
+  font-size: .8em;   /* Smaller text */
   font-style: italic; /* Cursive/italic */
   color: #099;     /* Rose-red color */
   margin-top: .1em;   /* Remove bottom margin */
+}
+
+// Notations
+.notation {
+  font-style: italic;
+  font-weight: 500;
+  color: $primary-color;
+}
+
+.notation-s {
+  @extend .notation;
+  font-size: .9em;
+}
+
+.notation-l {
+  @extend .notation;
+  font-size: 1.1em;
+}
+
+/* Inline code (backticks) */
+p code, li code, span code {
+  background-color: #dcdcdc;
+  color: #262626; /* Dark text for contrast */
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-family: monospace;
+}
+
+.remove-space-below {
+  margin-bottom: 0;
 }
