@@ -1,8 +1,8 @@
 ---
 date: 2025-03-09 07:00:00 +3000
-title: Starting to Write—14 Tomorrows Later
+title: Starting to Write — 14 Tomorrows Later
 description: >-
-  On finally putting my thoughts into words—and how Elvis makes me believe in endless possibilities.
+  On finally putting my thoughts into words &mdash; and how Elvis makes me believe in endless possibilities.
 tags: [mindset, growth]
 image: /images/posts/post-3/starting-14-tomorrows-later.png
 ---
@@ -15,11 +15,11 @@ In a sense I needed to write even about the writing itself, to create a foundati
 
 When I was reading about Data Scientists, gathering information on what to learn and which resources to use, I came across many different opinions about the job. Some said that dedication alone is enough to succeed, while others emphasized the need for smarts, strong math skills, and more.
 
-And everywhere, the same idea kept appearing: _In order to land, you need to be competitive. You need to be the best of the best._
+And everywhere, the same idea kept appearing: _In order to land a job, you need to be competitive. You need to be the best of the best._
 
-I don't believe it to be entirely true. **I just don't want to believe that!** Because what this mindset brings - is desire to compete, win, to be better than someone else—and that’s **not inspiring** to me at all. I don't want to compete; I want to find my own place.
+I don't believe it to be entirely true. Well, **I don't want to believe that.** Because what this mindset brings &mdash; is desire to compete, win, to be better than someone else &mdash; and that’s **not inspiring** to me at all. I don't want to compete; I want to find my own place.
 
-<p class="notation-s">I understand I need to be discoverable but not in a cutthroat way.</p>
+<p class="notation">I understand I need to be discoverable but not in a cutthroat way.</p>
 
 Still, I won't lie, it did raise some doubts inside. That _maybe I’m not smart enough to pull this off._
 
@@ -27,12 +27,12 @@ Still, I won't lie, it did raise some doubts inside. That _maybe I’m not smart
 
 As a sign of self-support, I wanted to shift my focus from weakening thoughts to something that helps me grow. So, I decided to write about my learning journey, as in
 
-> If you can explain it in simple terms, you understand the topic.\!
+> If you can explain it in simple terms, you understand the topic.
 
 <p class="notation">It is the gist of several quotes I encountered, yet inspired by Feynman’s learning technique.</p>
-Plus, the act of explanation itself helps to understand it better. So, I thought I will be just writing posts on Medium, make projects on GitHub, all casual. It evolved pretty soon and I created my own cozy space for that. 🤭 [1 - on website creation]
+Plus, the act of explanation itself helps to understand it better. So, I thought I will be just writing posts on Medium, make projects on GitHub, all casual. It evolved pretty soon 🤭 and I created my own cozy space for that - this website. [1 - on website creation]
 
-## Starting Today.
+## "Starting Today"
 
 Ever since the idea of writing came to me, this line from Elvis song has been playing louder and louder in my head. Even though it’s about romance, these two words stood out.
 
@@ -44,17 +44,19 @@ Turns out, this simple decision also touches on many psychological aspects of se
 
 So, this _“starting today”_ actually took me **14 ‘tomorrows’!** [Thank you, Elvis, for putting up with me this long.]
 
-<p class="notation">And what's the point of 'starting today' if you're not doing it then?</p>
+<p class="notation">Yet what's the point of 'starting today' if you're not doing it then?</p>
 
-Because every time it plays in my head, it feels like **I always have another chance.** 'Starting today' ANY day. Like giving yoursell countless amount of changes. And I believe this _knowing_ that I can have as many chances as I need is far more powerful than feeling constrained by timeframes.
+Because every time it plays in my head, it feels like **I always have another chance.** 'Starting today' ANY day. Like giving yoursell countless amount of chances. And I believe this _knowing_ that I can have as many chances as I need is far more powerful than feeling constrained by timeframes.
 
-Besides, this 'putting-off' can actually provide valuable insights into why it happens. For me, I realized I needed to create a bigger picture first. [2 - on planning] How this whole idea fits into my future, my goals. _Or is this the time to reconsider my goals?_
+Besides, this 'putting-off' can actually provide valuable insights into why it happens. [I don't believe being lazy or doing nothing are our desired states.]
+
+For me, I realized I needed to create a bigger picture first. [2 - on planning] **How this whole idea fits into my future, my goals.** _Or is this the time to reconsider them?_
 
 # In conclusion…
 
 Here I am.
 
-<p class="notation">“Starting today. I’m teaching my heart not to ache anymore…”</p>
+<p class="notation">“Starting today. I’m teaching my heart…”</p>
 
 If you know and like this song, I bet it's been playing in your head ever since I mentioned it. You’re welcome. 😉
 
@@ -67,7 +69,9 @@ If you know and like this song, I bet it's been playing in your head ever since 
 ---
 
 <div class="end-comment">
-  <p>I find it distracting when articles have a gazillion cross-links and ads. So I provide references to related articles here, in case you're interested:</p>
+  <p>I find cross-links within articles distracting for reading, so I provide references to related articles here, in case you're interested:</p>
   <p class="remove-space-below"><a href="/blog/github-pages-jekyll-how-my-website-came-to-be">[1] GitHub Pages & Jekyll: How My Website Came to Be</a></p>
   <p>[2] top-to-bottom-planning</p>
 </div>
+
+---
