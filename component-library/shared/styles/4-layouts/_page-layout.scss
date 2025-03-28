@@ -501,3 +501,11 @@
 		font-size: 36px;
 	}
 }
+
+.post__description {
+	// font-style: italic;
+	color: $text-color;
+	margin-bottom: 1rem;
+	font-size: 16px;
+  line-height: 1.6;
+}
