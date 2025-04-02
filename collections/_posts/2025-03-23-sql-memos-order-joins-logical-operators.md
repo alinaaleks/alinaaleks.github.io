@@ -1,7 +1,7 @@
 ---
 date: 2025-03-23 23:19:00 +0300
-title: "Week #1. SQL Memos: Order, Joins, Logical Operators"
-description: "Basic SQL references I keep returning to again and again."
+title: "SQL Memos: Order, Joins, Logical Operators"
+description: "Week #1. Basic SQL references I keep coming to again and again."
 tags: [52-sundays, SQL]
 image: "/images/posts/post-4/wildcards.png"
 ---
