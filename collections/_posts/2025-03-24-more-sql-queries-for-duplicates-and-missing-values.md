@@ -1,7 +1,7 @@
 ---
 date: 2025-03-24 11:19:00 +0300
 title: "More SQL: Queries for Duplicates and Missing Values"
-description: "-"
+description: "When faced with real-world, less-than-perfect data..."
 tags: [SQL]
 image: "/images/posts/post-5/overview-duplicates-and-missing.png"
 ---
