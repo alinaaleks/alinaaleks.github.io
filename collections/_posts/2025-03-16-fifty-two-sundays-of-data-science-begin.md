@@ -1,8 +1,8 @@
 ---
 date: 2025-03-16 23:59:59 +0300
-title: 52 Sundays of Data Science Begin
-description: What can happen after one year of focused attention into one area?
-tags: [52-sundays, website]
+title: Data Science Begins
+description: and, hopefully, continues :D
+tags: [website]
 image: "/images/posts/post-2/ds-book-flower.jpg"
 ---
 
@@ -12,18 +12,12 @@ Let's see... Learning something, asking questions, pondering, all-things-music..
 
 You see, over the years I've tried different fields, professions, occasional unemployments 😅 The pattern? A jack-of-all-trades — master of none. Or, rather, an expert of none.
 
-The time has come to deepen knowledge in one field. Besides, Data Science does seem versatile enough for my curious nature. But what I’m most excited to see is **what concentrated focus can achieve.** What will happen? I think even without natural abilities it should yield tangible results.
+Now I have new interest - Data Science. The time has come to deepen knowledge in one field. Besides, Data Science does seem versatile enough for my curious nature. But what I’m most excited to see is **what concentrated focus can achieve.** What will happen? I think even without natural abilities it should yield tangible results.
 
-So here's the plan:
-
-## The 52 Sundays Manifest
-
-**A yearlong experiment in learning Data Science, writing, and showing up.**
-
-**First Sunday** - 23-03-2025. **52nd Sunday** - 15-03-2026
+## So here's the plan:
 
 - _Use writing to document progress and_ explore how it can also _reinforce learning._ Which answers could be answered with 'data tools'?
-- _Show up consistently_ — 52 Sundays, 52 posts.
+- _Show up_
 - _No perfectionism!_ Better a finished project than an eternally perfect draft.
 - _Finish three Data Science books_ from cover to cover. These are not my only resources, but I'm truly interested in what dedicated study in one source can do.
 

@@ -1,7 +1,7 @@
 ---
 date: 2025-03-30 20:22:00 +0300
 title: "Training, Validation, Test Datasets"
-description: "Week #2. Exploring how data is split for building the model."
+description: "Exploring how data is split for building the model."
 tags: [52-sundays, ML]
 image: "/images/posts/post-7/training-validation-test-overview.png"
 ---

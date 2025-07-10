@@ -1,8 +1,8 @@
 ---
 date: 2025-04-06 22:22:00 +0300
 title: "A Story Told Over Tea (with Python)"
-description: "Week #3. A tale of app migrations, meaning, and automations."
-tags: [52-sundays, python, lyrical]
+description: "A tale of app migrations, meaning, and automations."
+tags: [python, lyrical]
 image: "/images/posts/post-8/laptop-is-my-cup-of-tea.jpg"
 ---
 

@@ -1,12 +1,12 @@
 ---
-date: 2025-04-20 22:00:00 +3000
+date: 2025-05-30 22:00:00 +3000
 title: About the Conference
-description: "Week #5. Impressions from the Data Conference.."
-tags: [52-sundays, llm]
+description: "Impressions from the Data Conference.."
+tags: [llm]
 image: /images/posts/post-10/df-conference.jpg
 ---
 
-I have been to the **Data Conference** in Moscow this week. It lasted for 2 days, and I can honestly say I heard more unfamiliar words than I ever expected to. I wrote them down anyway—some of them without knowing whether or not I will learn their meaning.
+I have been to the **Data Conference** this April in Moscow. It lasted for 2 days, and I can honestly say I heard more unfamiliar words than I ever expected to. I wrote them down anyway—some of them without knowing whether or not I will learn their meaning.
 
 I’m not going to unpack all of it here, but I want to highlight a few things that struck me as meaningful, especially where I am right now on my learning journey.
 
