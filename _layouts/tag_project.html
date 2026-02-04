@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% assign tag_lower = page.tag | downcase %}
+{% bookshop page-heading title=page.tag %}
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="container__inner animate">
+        <div class="row">
+
+          {% comment %}
+          Build a list of projects that contain the current tag
+          {% endcomment %}
+          {% assign filtered_projects = "" | split: "" %}
+          {% for project in site.projects %}
+            {% if project.tags %}
+              {% assign project_tags_lower = project.tags | join: "," | downcase | split: "," %}
+              {% if project_tags_lower contains tag_lower %}
+                {% assign filtered_projects = filtered_projects | push: project %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+
+          {% if filtered_projects.size == 0 %}
+            <div class="col col-12">
+              <p>No projects found for this tag yet.</p>
+            </div>
+          {% else %}
+            {% for project in filtered_projects %}
+              {% bookshop project-card project=project %}
+            {% endfor %}
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

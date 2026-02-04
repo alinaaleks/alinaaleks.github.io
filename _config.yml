@@ -1,5 +1,5 @@
 # Personal details
-# title: 52 Sundays Later
+# title: Alina Aleks
 email: toalinaaleks@gmail.com
 # description: >-
 #  "A yearlong experiment in learning, writing, and showing up."
@@ -66,6 +66,11 @@ defaults:
 tag_page_dir: tag
 tag_page_layout: tag_page
 tag_permalink_style: /:title
+
+# New section for project tags
+tag_project_page_dir: tag-project
+tag_project_page_layout: tag_project
+tag_project_permalink_style: /project/tag/:title
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
