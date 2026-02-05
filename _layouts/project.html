@@ -2,40 +2,73 @@
 layout: default
 ---
 
-<div class="container">
+{% if page.image %}
+<div class="post-top">
+  <div class="container">
+    <div class="row">
 
-  {% bookshop page-heading title=page.title description=page.subtitle %}
+      <!-- LEFT: project info -->
+      <div class="col col-6 col-d-12">
+        <div class="post__info">
 
-{% if page.tags and page.tags.size > 0 %}
-<div class="post-tags">
-  {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tag-project/{{ tag | downcase }}" class="post-tags__tag">
-      {{ tag }}
-    </a>
-  {% endfor %}
+          <h1 class="post__title">{{ page.title }}</h1>
+
+          {% if page.subtitle %}
+          <div class="post__description">
+            {{ page.subtitle }}
+          </div>
+          {% endif %}
+
+          {% if page.tags and page.tags.size > 0 %}
+          <div class="post-tags">
+            {% for tag in page.tags %}
+              <a href="{{ site.baseurl }}/tag-project/{{ tag | downcase }}" class="post-tags__tag">
+                {{ tag }}
+              </a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+
+      <!-- RIGHT: project image -->
+      <div class="col col-6 col-d-12">
+        <div class="post-image">
+          <img
+            loading="lazy"
+            src="{{ site.baseurl }}{{ page.image }}"
+            alt="{{ page.title }}"
+          >
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
 {% endif %}
 
-
-  {% assign page_image = site.baseurl | append: page.image %}
-  {% bookshop page-image image=page_image %}
-
-  <div class="page animate">
-    {{ content }}
-  </div>
-
-  {% if page.previous.url %}
-  <div class="project__navigation animate">
-    <a class="project__prev" href="{{page.previous.url}}">
-      <div class="project__box">
-        <span class="project__nav__info">Next Project</span>
-        <h2 class="project__nav__title">{{page.previous.title}}<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2>
-      </div>
-    </a>
-  </div>
-  {% endif %}
-
+<!-- PROJECT CONTENT -->
+<div class="page animate">
+  {{ content }}
 </div>
+
+{% include share.html %}
+
+<!-- PROJECT NAVIGATION -->
+{% if page.previous.url %}
+<div class="project__navigation animate">
+  <a class="project__prev" href="{{ page.previous.url }}">
+    <div class="project__box">
+      <span class="project__nav__info">Next Project</span>
+      <h2 class="project__nav__title">
+        {{ page.previous.title }}
+        <i class="ion ion-md-arrow-round-forward arrow-right"></i>
+      </h2>
+    </div>
+  </a>
+</div>
+{% endif %}
 
 {% comment %}
 {% bookshop
