@@ -90,7 +90,7 @@ DEPENDENCIES
   jekyll-sitemap (= 1.4.0)
   jekyll-tagging (= 1.1.0)
   jekyll-watch
-  wdm (>= 0.1.0)
+  wdm (~> 0.1)
 
 BUNDLED WITH
    2.3.26
