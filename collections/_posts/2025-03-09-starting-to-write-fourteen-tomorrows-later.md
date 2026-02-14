@@ -21,7 +21,7 @@ As a sign of support, I thought to do something that helps me grow. Writing soun
 
 > If you can explain it in simple terms, you understand the topic.
 
-So, I thought I will be just writing posts on Medium, make projects on GitHub, all casual. Which evolved pretty soon 🤭 and I created my own cozy space for that - this website. [1 - on website creation]
+So, I thought I will be just writing posts on Medium, make projects on GitHub, all casual. Which evolved pretty soon 🤭 and I created my own cozy space for that - this website. [1 - link below, on website creation]
 
 ## "Starting Today"
 
@@ -31,7 +31,7 @@ Yet actually it took me **14 ‘tomorrows’!**
 
 It was the calm before the storm.
 
-It was the planning before action. [2 - on planning]
+It was the planning before action. [2 - link below, on planning]
 
 Thank you, Elvis, for putting up with me this long.
 
@@ -50,9 +50,9 @@ If you know and like this song, I bet it's been playing in your head ever since 
 ---
 
 <div class="end-comment">
-  <p>I find cross-links within articles distracting for reading, so I provide references to related articles here, in case you're interested:</p>
-  <p class="remove-space-below"><a href="/blog/github-pages-jekyll-how-my-website-came-to-be">[1] GitHub Pages & Jekyll: How My Website Came to Be</a></p>
-  <p class="remove-space-below"><a href="/blog/before-planning-your-day-plan-your-life">[2] Before Planning Your Day, Plan Your Life</a></p>
+  <p>I find cross-links within articles distracting for reading, so I provide references to related links here, in case you're interested:</p>
+  <p class="remove-space-below"><a href="/blog/github-pages-jekyll-how-my-website-came-to-be" target="_blank">[1] GitHub Pages & Jekyll: How My Website Came to Be</a></p>
+  <p class="remove-space-below"><a href="/blog/before-planning-your-day-plan-your-life" target="_blank">[2] Before Planning Your Day, Plan Your Life</a></p>
 </div>
 
 ---
