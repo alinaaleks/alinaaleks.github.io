@@ -2,12 +2,12 @@
 date: 2025-04-06 22:22:00 +0300
 title: "A Story Told Over Tea (with Python)"
 description: "A tale of app migrations, meaning, and automations."
-tags: [python, lyrical]
+tags: [Python, lyrical]
 image: "/images/posts/post-8/laptop-is-my-cup-of-tea.jpg"
 ---
 
 Today I’m wrapped in my cozy robe, sipping hibiscus tea, and about to dive into the past.  
-Fret not—it’s related to data.
+Fret not — it’s related to data.
 
 Lately, I often wonder how I, so obsessed with gathering and organizing information, hadn’t discovered Python earlier. **I did _so much_ manual work!**
 But maybe I had to go through all those tedious tasks to now understand how to process things better. Still, I’m surprised by how long I remained in the dark.
@@ -51,7 +51,7 @@ Right now, I’m exploring Obsidian as a new promising path. I’m discovering t
 
 I think **I needed to write all this to honor the _long-long road_ I’ve walked in order to appreciate the _new road_ filled with more efficiency.** New era of migration! Yesterday, I was _blown away_ by the efficiency of a simple automation.
 
-I worked with my recipe book.
+I worked with my recipe book. [1 - link below, my recipe book template]
 
 And with just a few lines of Python, I turned my CSV file into `.md` recipe cards for Obsidian. What previously was **a row in airtable became an `.md` in Obsidian**, with unified lines of code for template record.
 
@@ -60,10 +60,10 @@ It used to take _days_.
 
 But this time?
 
-Using the Airtable API, a personal token, and just the basic structure of my table—**I downloaded _all_ the images with Python in under five minutes.**
-Yes, I also had to understand the code, test it, tweak it—but the whole process took less than two hours.
+Using the Airtable API, a personal token, and just the basic structure of my table — **I downloaded _all_ the images with Python in under five minutes.**
+Yes, I also had to understand the code, test it, tweak it — but the whole process took less than two hours.
 
-Watching those lines—`Downloading image.jpg`—appear, one by one...
+Watching those lines — `Downloading image.jpg` — appear, one by one...
 
 ![Printed message in Jupyter Notebook that Images were Downloaded](/images/posts/post-8/jupyter-imgs-downloaded.png){: .center width="600" height="auto"}
 
@@ -74,12 +74,17 @@ Watching those lines—`Downloading image.jpg`—appear, one by one...
 ## The Next Cup of Tea
 
 I think of refining this script and mapping it out as a mini-project.
-I imagine I might be coming back to it more than once.
+I imagine I might be coming back to it more than once. [2]
 
-[Mini-project: Image Downloader with Python](/projects/image-downloader)
+<div class="end-comment">
+  <p class="remove-space-below"><a href="/project/recipe-book-template" target="_blank">[1] Recipe Book Template</a></p>
+  <p class="remove-space-below"><a href="/project/image-downloader" target="_blank">[2] Image Downloader with Python</a></p>
+</div>
 
 ---
 
 Thank you for a warm chat.
 
 ![Thank you note in a cup](/images/posts/post-8/thank-you-note.jpg){: .center width="500" height="auto"}
+
+---
