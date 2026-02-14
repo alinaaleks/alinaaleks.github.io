@@ -32,13 +32,13 @@ So,
 - **Achievable** - there's nothing we can't do with ChatGPT!\*\*
 
 <p class="notation">*Jekyll is a static site generator which works directly with GitHub Pages.</p>
-<p class="notation">**Plus, I think understanding what html/css/js/git are, not being afraid of the command line, and being willing to do a little digging is enough.</p>
+<p class="notation">**Plus, I think understanding what html/css/js/git are, not being afraid of the command line, and being willing to do a little digging would be enough.</p>
 
 ## How it works
 
 - GitHub Pages hosts site for free
 - Jekyll takes Markdown files (.md), converts them into HTML, and organizes into a structured website (like now - this post is written in .md)
-- Website updates automatically when changes are pushed to GitHub repo (otherwise, it remains unchanged - that's what a static website means)
+- Website updates automatically when changes are pushed to GitHub repo (otherwise, it remains unchanged - _that's what a static website means_)
 
 ## Steps taken:
 
@@ -46,7 +46,7 @@ So,
 
 **STEP 2.** Install Ruby (usual download + installation) => Install Bundler + Jekyll (via terminal: `gem install jekyll bundler`)
 
-**STEP 3.** Create basic Jekyll Site (`jekyll new . --force`). **OR** Find template online. I chose <a href="https://github.com/CloudCannon/vonge-jekyll-bookshop-template" target="_blank">Vonge theme</a>. It was created for hosting at CloudCannon, but adaptable for GitHub pages as well.
+**STEP 3.** Create basic Jekyll Site (`jekyll new . --force`). **OR** Find template online. I chose **Vonge theme**[1 - link below, Vonge theme]. It was created for hosting at CloudCannon, but adaptable for GitHub pages as well.
 
 - Download ZIP of the theme
 - Add to my repo
@@ -100,7 +100,7 @@ Change in GitHub repo settings from "Deploy from a branch" (default) to **"Deplo
 
    <p class="notation">This YAML file will run your Jekyll build process each time you push changes to your repository, making it much more flexible for handling dependencies and custom configurations.</p>
 <ol start="3">
-  <li>"Configure <code>jekyll.yml</code> file (ChatGPT filled it in for me, but if you're interested <a href="https://github.com/alinaaleks/alinaaleks.github.io/blob/main/.github/workflows/jekyll.yml" target="_blank"></a>check out in my repo) => Commit changes</li>
+  <li>"Configure <code>jekyll.yml</code> file (ChatGPT filled it in for me, but if you're interested check out in my repo [2 - link below, my repo]) => Commit changes</li>
   <li>Go to Actions => Choose "Deploy Jekyll site to Pages"</li>
 </ol>
 
@@ -126,15 +126,20 @@ _Bookshop is a component-driven design system for Jekyll and other static site g
 
 **Why code treated as YAML in my `index.html`?**
 _Because your `index.html` file contains front matter, which is YAML.
-In Jekyll, front matter refers to the section at the top of each page or post file, where you define metadata like the title, layout, and other variables. This section is enclosed between --- lines and is typically written in YAML format._
-
-_When you comment out parts of it incorrectly, it can break the YAML parsing.
-The rest of the file will be parsed as HTML._
+In Jekyll, front matter refers to the section at the top of each page or post file, where you define metadata like the title, layout, and other variables. This section is enclosed between `---` lines and is typically written in YAML format._
 
 **Can extensions of files be case-sensitive? Request url contains `page-1.**jpg**`and my file is`page-1.**JPG**`**
-_Yes, it can absolutely be case-sensitive! On GitHub Pages, URLs are case-sensitive, and page-1.jpg and page-1.JPG are considered two different files._
+_Yes, it can absolutely be case-sensitive! On GitHub Pages, URLs are case-sensitive, and page-1.jpg and page-1.JPG are considered as two different files._
 
 **What can be more satisfying than the moment when code finally works?!**
 _There's truly nothing, darling._
+
+---
+
+<div class="end-comment">
+  <p>I find cross-links within articles distracting for reading, so I provide references to related links here, in case you're interested:</p>
+  <p class="remove-space-below"><a href="https://github.com/CloudCannon/vonge-jekyll-bookshop-template" target="_blank">[1] Vonge Theme - personal blog template for Jekyll on GitHub</a></p>
+  <p class="remove-space-below"><a href="https://github.com/alinaaleks/alinaaleks.github.io/blob/main/.github/workflows/jekyll.yml" target="_blank">[2] jekyll.yml file in my repo on Github</a></p>
+</div>
 
 ---
