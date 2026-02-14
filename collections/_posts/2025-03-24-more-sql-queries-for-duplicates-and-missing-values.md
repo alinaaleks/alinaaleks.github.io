@@ -2,11 +2,11 @@
 date: 2025-03-24 11:19:00 +0300
 title: "More SQL: Queries for Duplicates and Missing Values"
 description: "When faced with real-world, less-than-perfect data..."
-tags: [SQL]
-image: "/images/posts/post-5/overview-duplicates-and-missing.png"
+tags: [SQL, data]
+image: "/images/posts/post-5/cover.png"
 ---
 
-Some of the courses I tried in data analytics use clean data to work with, which is nice yet utopian :) That's why whenever I see data cleaning mentioned somewhere, I'm all ears.
+Some of the courses I've tried in data analytics use clean data to work with, which is nice, yet utopian :) That's why whenever I see 'data cleaning' mentioned somewhere, I'm all ears.
 
 As far as I know now, there are three types of data that need to be checked during Data Cleaning process:
 
@@ -134,6 +134,10 @@ ORDER BY category_id;
 
 ![Screenshot - check if duplicates are deleted, final output](/images/posts/post-5/duplicates-04-final-result.png){: .center width="400" height="auto"}
 
+<p style="text-align: center;">Yay.</p>
+
+---
+
 ### Check for Missing Data
 
 Now, consider a table like this:
@@ -151,13 +155,13 @@ WHERE name IS NULL;
 
 <p></p>
 
-![Screenshot - output for checking for missing values](/images/posts/post-5/missing-values-01-check.png){: .center width="250" height="auto"}
+![Screenshot - output for checking for missing values](/images/posts/post-5/missing-values-01-check.png){: .center width="400" height="auto"}
 
 BUT
 
-Wait, where is the 5th row? It is obviously missing some data as well?
+Wait, where is the 5th row? It is obviously missing some data as well!
 
-In SQL, NULL represents true absence, while an empty string '' is technically a value — just an empty one. As well as zero. Well, with 0 it's more straightforward — it does take space even for the naked eye, and it is a value. Meanwhile, empty strings can sneak around unnoticed.
+In SQL, NULL represents true absence, while an empty string `""` is technically a value — just an empty one. As well as zero. Well, with `0` it's more straightforward — it does take space even for the naked eye, and it is a value. Meanwhile, empty strings can sneak around unnoticed.
 
 So, we need to modify our query a bit:
 
@@ -190,9 +194,9 @@ WHERE name IS NULL OR TRIM(name) = '';
 Once found, **what to do with them?**
 
 - delete
-- replace (for example, fill them in with 'n/a' or averages)
+- replace (for example, fill them in with "n/a" or averages)
 
-I saw a comment that regression can be used to predict values. Haven't tried it yet, but sounds interesting.
+I’ve also heard regression can be used to predict missing values — but that’s a more advanced topic for another day.
 
 Until next time.
 
