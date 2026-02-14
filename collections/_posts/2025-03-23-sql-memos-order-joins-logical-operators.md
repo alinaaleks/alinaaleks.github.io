@@ -2,8 +2,8 @@
 date: 2025-03-23 23:19:00 +0300
 title: "SQL Memos: Order, Joins, Logical Operators"
 description: "Basic SQL references I keep coming to again and again."
-tags: [SQL]
-image: "/images/posts/post-4/wildcards.png"
+tags: [SQL, memos]
+image: "/images/posts/post-4/cover.png"
 ---
 
 It's going to be an infographic post.
@@ -23,15 +23,15 @@ I was surprised when I first learned that `SELECT` is executed toward the end. N
 
 ![Image showing order of querying and execution](/images/posts/post-4/order-of-querying-execution.png){: .center width="600" height="auto"}
 
-It also helped me understand why I can’t use aliases in `WHERE` or `HAVING`, like here:
+It also helped me understand why I can’t use aliases I give in `SELECT` &mdash; in `WHERE` or `HAVING`, like here:
 
 ```sql
 SELECT name,
-        COUNT(order_id) AS total_orders
+        COUNT(order_id) AS total_orders -- Introduce alias 'total_orders'
 FROM random_table
 GROUP BY name
-HAVING total_orders > 1 -- Alias can't be used, because query doesn't know about it yet
-ORDER BY total_orders -- But by know the alias is already known and can be used
+HAVING total_orders > 1 -- (!!!)  This alias can't be used, because query doesn't know about it yet
+ORDER BY total_orders -- But by now the alias is already known and can be used
 ```
 
 <p></p>
@@ -42,23 +42,50 @@ SELECT name,
         COUNT(order_id) AS total_orders
 FROM random_table
 GROUP BY name
-HAVING COUNT(order_id) > 1 -- <= here, the same as in SELECT
+HAVING COUNT(order_id) > 1 -- (!!!) <= here, write without alias
 ORDER BY total_orders
 ```
 
-<p></p>
+---
 
 ## SQL Joins in Venn diagrams
 
-This one I use quite a lot. Handy, visual, and quick to grasp.
+This one I use quite a lot. Helps to understand which data from joined tables is selected.
+
+Handy, visual, and quick to grasp.
 
 ![SQL Joins illustrated in Venn diagrams](/images/posts/post-4/sql-joins.png){: .center width="600" height="auto"}
 
+---
+
 ## Logical operators and wildcards
 
-I just love the fact that some 'cards' are wild. So relatable.
+Logical operators are used to combine multiple conditions inside a query so to filter data more precisely. Most commonly in:
+
+- `WHERE` => to filter rows
+- `HAVING` => to filter grouped results
+- `ON` => to define join conditions
 
 ![SQL Logical operators and wildcards](/images/posts/post-4/sql-logical-operators.png){: .center width="600" height="auto"}
+
+What about wildcards? I just love the fact that some 'cards' are wild. So relatable.
+
+Wildcards are special symbols used with `LIKE` to search for patterns in text — not exact matches.
+
+The two main ones:
+
+- `%` => any number of characters
+- `_` => exactly one character
+
+Quick example:
+
+```sql
+SELECT *
+FROM posts
+WHERE title LIKE 'S_L%'; -- Meaning: "S" + exactly one character + "L" + any number of characters after
+```
+
+=> Thus, **"SQL Joins"** will match the pattern **"wild SQL"** will not.
 
 ---
 
