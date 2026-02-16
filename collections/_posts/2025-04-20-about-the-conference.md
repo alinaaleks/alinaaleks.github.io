@@ -29,28 +29,36 @@ Here are a few insights I wrote down during the talks:
 
 The conference gave me more than just a long list of unknown terms — it gave me the overall feeling of the field and possible directions to explore, listening to the variety of what's been going on for the last years. Here’s what caught my attention:
 
-- **GRAPHS.** It is a way to represent things and relationships between them. Graphs help to see patterns, connections, and networks that aren’t obvious in a table of data.It’s made of nodes (things, e.g., people, cities, websites) and edges (connections, e.g., friendships, roads, hyperlinks).
+- **GRAPHS.** It is a way to represent things and relationships between them. Graphs help to see patterns that aren’t obvious in a table of data.
 
-Map: nodes = cities, edges = roads
+![Graph view in Obsidian app](/images/posts/post-6/graphs-obsidian.gif){: .center width="1152" height="auto"}
+
+<p class="notation">It is Graph view illustrating my notes and their connections in Obsidian app.</p>
+
+Graphs made of nodes (like individual notes in my example) and edges (connections between them).
 
 Applications:
 
 - Finding the shortest route (GPS apps)
-- Detecting communities (social network clusters)
 - Recommending products or friends (by looking at connections)
 
-- **LLMs (Large Language Models).** AI models trained on huge amounts of text, designed to understand and generate human-like text. My lovely ChatGPT. <3 Yet, what interests me — is how they come to be?
-  Auto-complete in my email is powered by a smaller LLM.
+- **LLMs (Large Language Models).** AI models trained on huge amounts of text, designed to understand and generate human-like text. My lovely ChatGPT. <3 Yet, what I'm curious about — is how they come to be?
+
+Turns out, auto-complete in my email (or phone) is powered by a smaller LLM.
 
 - **ILP. (Integer Linear Programming).** I had no idea what this means. But I wanted to find out. (Honestly, doesn’t it sound beautiful?)
 
-It is a mathematical way to make the best choice in situations with constraints, where the choices are whole numbers.
+It is a mathematical way to solve optimization problems, where you want to maximize or minimize something under certain rules, where the choices are whole numbers (integers).
 
-It helps solve optimization problems in logistics, scheduling, or planning.
+Applications:
 
-“math-based optimizer” that deals with real-world restrictions.
+- Scheduling: assigning workers to shifts without overlaps.
+- Route optimization: planning delivery routes efficiently.
+- Resource allocation: deciding how many of each product to make with limited materials.
 
-Also, there was a question about `P = NP`. I HAVE to know what this is about.
+Also, there was a question about `P = NP`. There was a joke mentioned with that and everyone began laughing and it was this feeling, when everyone knows and you doesn't.
+
+So, what is it about?
 
 ---
 
