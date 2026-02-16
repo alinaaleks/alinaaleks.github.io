@@ -10,3 +10,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap", "1.4.0"
   gem "wdm", "~> 0.1", platforms: [:mswin, :mingw, :x64_mingw]
 end
+
+gem "csv", "~> 3.3"
