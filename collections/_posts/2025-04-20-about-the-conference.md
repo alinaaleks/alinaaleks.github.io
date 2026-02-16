@@ -2,13 +2,13 @@
 date: 2025-05-30 22:00:00 +3000
 title: About the Conference
 description: "Impressions from the Data Conference.."
-tags: [llm]
-image: /images/posts/post-10/df-conference.jpg
+tags: [LLM, data]
+image: /images/posts/post-6/df-conference.jpg
 ---
 
-I have been to the **Data Conference** this April in Moscow. It lasted for 2 days, and I can honestly say I heard more unfamiliar words than I ever expected to. I wrote them down anyway—some of them without knowing whether or not I will learn their meaning.
+I have been to the **Data Conference** this April in Moscow. It lasted for 2 days, and I can honestly say I heard A LOT of unfamiliar words.
 
-I’m not going to unpack all of it here, but I want to highlight a few things that struck me as meaningful, especially where I am right now on my learning journey.
+I’m not going to unpack it all here, but I'd like to highlight a few things that struck me as meaningful.
 
 ---
 
@@ -21,19 +21,36 @@ Here are a few insights I wrote down during the talks:
 3. **Modify how you solve problems.** Be flexible, not formulaic. Try out and adjust.
 4. **Discuss.** New ideas are born in conversation.
 5. **Theorize.** And if someone gives you a theory? Test it.
-6. **Write.** Science is always a collective effort—and writing is how your thinking contributes to that. It also helps to learn to communicate thought in a clear and succint way.
+6. **Write.** Science is always a collective effort — and writing is how your thinking contributes to that. It also helps to learn to communicate thought in a clear and succint way.
 
 ---
 
 ## Topics I Want to Explore Deeper
 
-The conference gave me more than just a long list of unknown terms—it gave me the overall feeling of the field and possible directions to explore, listening to the variety of what's been going on for the last years. Here’s what caught my attention:
+The conference gave me more than just a long list of unknown terms — it gave me the overall feeling of the field and possible directions to explore, listening to the variety of what's been going on for the last years. Here’s what caught my attention:
 
-- **Graphs.** I guess it is something about connecting the dots. I read about it, but still have no idea how it may be applied.
-- **LLMs (Large Language Models).** I’ve heard them discussed so often—but how _did_ they come to be?
-- **Integer Linear Programming.** I have no idea what this means. But I want to find out. (Honestly, doesn’t it sound beautiful?)
+- **GRAPHS.** It is a way to represent things and relationships between them. Graphs help to see patterns, connections, and networks that aren’t obvious in a table of data.It’s made of nodes (things, e.g., people, cities, websites) and edges (connections, e.g., friendships, roads, hyperlinks).
 
-Also, there was a question about `P = mp`. I HAVE to know what this is about.
+Map: nodes = cities, edges = roads
+
+Applications:
+
+- Finding the shortest route (GPS apps)
+- Detecting communities (social network clusters)
+- Recommending products or friends (by looking at connections)
+
+- **LLMs (Large Language Models).** AI models trained on huge amounts of text, designed to understand and generate human-like text. My lovely ChatGPT. <3 Yet, what interests me — is how they come to be?
+  Auto-complete in my email is powered by a smaller LLM.
+
+- **ILP. (Integer Linear Programming).** I had no idea what this means. But I wanted to find out. (Honestly, doesn’t it sound beautiful?)
+
+It is a mathematical way to make the best choice in situations with constraints, where the choices are whole numbers.
+
+It helps solve optimization problems in logistics, scheduling, or planning.
+
+“math-based optimizer” that deals with real-world restrictions.
+
+Also, there was a question about `P = NP`. I HAVE to know what this is about.
 
 ---
 
