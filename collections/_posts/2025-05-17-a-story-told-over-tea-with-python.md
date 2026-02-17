@@ -1,5 +1,5 @@
 ---
-date: 2025-04-06 22:22:00 +0300
+date: 2025-05-17 22:22:00 +0300
 title: "A Story Told Over Tea (with Python)"
 description: "A tale of app migrations, meaning, and automations."
 tags: [Python, lyrical]

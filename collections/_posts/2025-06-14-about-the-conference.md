@@ -1,5 +1,5 @@
 ---
-date: 2025-05-30 22:00:00 +3000
+date: 2025-06-14 22:00:00 +3000
 title: Intro to Graphs, LLM and ILP
 description: "Impressions after the Data Conference."
 tags: [AI, Math, data]
