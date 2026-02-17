@@ -3,7 +3,7 @@ date: 2025-02-27 22:00:00 +3000
 title: Before Planning Your Day, Plan Your Life
 description: >-
   From vision - through planning - into the action.
-tags: [planning]
+tags: [planning, memos]
 image: /images/posts/post-0/cover.png
 ---
 
