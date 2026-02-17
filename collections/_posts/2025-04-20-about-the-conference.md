@@ -1,9 +1,9 @@
 ---
 date: 2025-05-30 22:00:00 +3000
-title: About the Conference
-description: "Impressions from the Data Conference.."
-tags: [LLM, data]
-image: /images/posts/post-6/df-conference.jpg
+title: Intro to Graphs, LLM and ILP
+description: "Impressions after the Data Conference."
+tags: [AI, Math, data]
+image: /images/posts/post-6/chat-gpt-for-readers.png
 ---
 
 I have been to the **Data Conference** this April in Moscow. It lasted for 2 days, and I can honestly say I heard A LOT of unfamiliar words.
@@ -29,37 +29,49 @@ Here are a few insights I wrote down during the talks:
 
 The conference gave me more than just a long list of unknown terms — it gave me the overall feeling of the field and possible directions to explore, listening to the variety of what's been going on for the last years. Here’s what caught my attention:
 
-- **GRAPHS.** It is a way to represent things and relationships between them. Graphs help to see patterns that aren’t obvious in a table of data.
+#### **GRAPHS. “Who is connected to what, and how?”**
 
-![Graph view in Obsidian app](/images/posts/post-6/graphs-obsidian.gif){: .center width="1152" height="auto"}
+It is a way to represent things and relationships between them. They help to see patterns that aren’t obvious in a table of data.
 
-<p class="notation">It is Graph view illustrating my notes and their connections in Obsidian app.</p>
+![Graph view in Obsidian app](/images/posts/post-6/graphs-obsidian.gif){: .center width="1920" height="auto"}
 
-Graphs made of nodes (like individual notes in my example) and edges (connections between them).
+<p class="notation">It is a Graph view illustrating my notes and their connections in Obsidian app.</p>
 
-Applications:
+Graphs are made of **nodes** (like individual notes in my example = dots) and **edges** (connections between them = lines).
 
-- Finding the shortest route (GPS apps)
-- Recommending products or friends (by looking at connections)
+**Applications:**
 
-- **LLMs (Large Language Models).** AI models trained on huge amounts of text, designed to understand and generate human-like text. My lovely ChatGPT. <3 Yet, what I'm curious about — is how they come to be?
+- Maps and navigation: finding shortest route, fastest route.
+- Recommendation systems: “If you liked X, you might like Y.” Because it finds patterns of connections.
+- Fraud detection: suspicious money transfers.
 
-Turns out, auto-complete in my email (or phone) is powered by a smaller LLM.
+Graphs are the best way to analyze relationships.
 
-- **ILP. (Integer Linear Programming).** I had no idea what this means. But I wanted to find out. (Honestly, doesn’t it sound beautiful?)
+#### **LLM (Large Language Models). “What do these words mean, or what words should follow?”**
 
-It is a mathematical way to solve optimization problems, where you want to maximize or minimize something under certain rules, where the choices are whole numbers (integers).
+These are models trained on huge amounts of text, designed to understand and generate human-like text. My lovely ChatGPT. <3 Turns out, auto-complete in my email (or phone) is powered by a smaller LLM.
 
-Applications:
+Yet, what I'm curious about — is how they come to be?
+In essence, LLMs are the result of teaching computers to read enormous libraries of text and recognize how ideas and words naturally connect.
+
+<p class="notation">I told ChatGPT that I would like to show him (it? 😬) in my blog post part about LLMs. And asked to generate a lovely image for readers to see. Something related to data and inspiration. I put it as cover.</p>
+
+#### **ILP. (Integer Linear Programming). “What is the best choice I can make, given rules and limits?”**
+
+I had no idea what this means. But I wanted to find out. Honestly, doesn’t it sound beautiful?
+
+ILP is a mathematical way to solve optimization problems, where you want to maximize or minimize something under certain rules, and where the choices are whole numbers (integers).
+
+I think visual conveys it better.
+
+![Integer Linear Programming Logic](/images/posts/post-6/ILP-logic.png){: .center width="800" height="auto"}
+
+**Applications:**
 
 - Scheduling: assigning workers to shifts without overlaps.
 - Route optimization: planning delivery routes efficiently.
 - Resource allocation: deciding how many of each product to make with limited materials.
 
-Also, there was a question about `P = NP`. There was a joke mentioned with that and everyone began laughing and it was this feeling, when everyone knows and you doesn't.
-
-So, what is it about?
-
 ---
 
-All in all, I got to see really intelligent people who speak about all this stuff and understand it. Isn't it amazing?! :)
+All in all, I got to see really intelligent people who speak about all this stuff, understand it and can apply. Isn't it amazing?! :)
