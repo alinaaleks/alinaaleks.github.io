@@ -2,8 +2,11 @@
 date: 2023-11-29 22:00:35 -0600
 title: Recipe Book Template
 subtitle: Cooking with style and with ease.
-image: "/images/projects/project-1/ks-thumbnail.png"
+tools: []
+category: []
+lang: EN
 tags: [Notion, Obsidian, DB]
+image: "/images/projects/project-1/cover.png"
 ---
 
 My idea here is not to just create a recipe book. My idea is to provide you
