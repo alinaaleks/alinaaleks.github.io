@@ -2,16 +2,35 @@
 date: 2023-11-29 22:00:35 -0600
 title: Recipe Book Template
 subtitle: Cooking with style and with ease.
-tools: []
-category: []
+tools: [Notion, Obsidian]
+category: [systems, DB]
 lang: EN
 tags: [Notion, Obsidian, DB]
 image: "/images/projects/project-1/cover.png"
 ---
 
-My idea here is not to just create a recipe book. My idea is to provide you
-with a tool which will serve you in making your cooking more enjoyable,
-eating - healthier and time for recipe search - shorter.
+### Question(s)
+
+- How do I filter recipes by the ingredient I found in the fridge?
+- How do I just open the app and click on a recipe I saved for later?
+  Can I know if I already cooked this dish?
+
+### Problem / situation
+
+I wanted to organize a personal recipe database with the ability to filter by various parameters and ability to search through my recipe book visually.
+
+### Goal / solution
+
+Design a linked database system (recipes–ingredients–cooking experiences) and ensure it's easily searchable and easy to use.
+
+### Result / insights
+
+- A relational data structure was created.
+- Filtering by multiple parameters was implemented.
+
+### Tools
+
+Notion, Airtable, Obsidian, Python, API
 
 ![Basic Logic](/images/projects/project-1/basic-logic.gif){: width="1200" height="676"}
 
@@ -23,7 +42,13 @@ your searching.
 
 ![Tagging system](/images/projects/project-1/tagging-system.png){: width="1024" height="768"}
 
-Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.
+Notion recipe book is about:
+• Structure
+• Organization
+• System design
+• Ease of use
+• Mental clarity
+• Everyday efficiency
 
 ![Correct template](/images/projects/project-1/correct-template.gif){: width="1200" height="676"}
 
