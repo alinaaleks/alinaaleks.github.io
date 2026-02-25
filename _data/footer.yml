@@ -6,8 +6,8 @@ footer_menu__settings:
       url: "/projects/"
     - title: "Blog"
       url: "/blog/"
-    - title: "CV"
-      url: "/cv/"
+    - title: "Resume"
+      url: "/resume/"
     - title: "About"
       url: "/about/"
 

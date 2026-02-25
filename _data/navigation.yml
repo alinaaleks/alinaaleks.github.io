@@ -10,7 +10,7 @@ menu__settings:
       url: "/blog/"
     - title: "Pages"
       submenu:
-        - url: "/cv/"
-          title: "CV"
+        - url: "/resume/"
+          title: "Resume"
         - url: "/about/"
           title: "About"
