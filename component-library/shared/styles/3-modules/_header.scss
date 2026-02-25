@@ -66,7 +66,7 @@
 }
 
 &:hover {
-  color: $white;
+  // color: $white;
 
   &::after {
     transform: translate3d(-50%,-50%,0) scale(0.9);
