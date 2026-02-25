@@ -15,7 +15,8 @@ layout: default
           Build a list of projects that contain the current tag
           {% endcomment %}
           {% assign filtered_projects = "" | split: "" %}
-          {% for project in site.projects %}
+          {% assign projects_sorted = site.projects | sort: "date" | reverse %}
+          {% for project in projects_sorted %}
             {% if project.tags %}
               {% assign project_tags_lower = project.tags | join: "," | downcase | split: "," %}
               {% if project_tags_lower contains tag_lower %}
