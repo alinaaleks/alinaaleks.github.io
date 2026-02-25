@@ -3,7 +3,7 @@ date: 2025-03-18 11:19:00 +0300
 title: "GitHub Pages & Jekyll: How My Website Came to Be"
 description: "This combo is 'Best for You', ChatGPT said. I decided to try &mdash; and now you're reading these words on that very setup."
 tags: [website]
-image: "/images/posts/post-1/website-plan.jpg"
+image: "/assets/posts/github-pages-jekyll/cover.jpg"
 ---
 
 I just want to perpetuate this. It feels so great to have your own website. We (can’t say 'I', because ChatGPT is my mighty companion) deployed it just now and I am very happy.
@@ -70,9 +70,9 @@ So,
 
 <p>this is where the main <i>“Oh, no!”</i> moment took place.</p>
 
-![Website is not working](/images/posts/post-1/website-is-not-working.png){: .center width="568" height=auto}
+![Website is not working](/assets/posts/github-pages-jekyll/website-is-not-working.png){: .center width="568" height=auto}
 
-![Deployment failure](/images/posts/post-1/deployment-failure.png){: .center width="1040" height=auto}
+![Deployment failure](/assets/posts/github-pages-jekyll/deployment-failure.png){: .center width="1040" height=auto}
 
 <p class="notation">wah-wah-wah-waaah.</p>
 And the treacherous _“what if it won’t work EVER?!”_ crept in...
@@ -104,7 +104,7 @@ Change in GitHub repo settings from "Deploy from a branch" (default) to **"Deplo
   <li>Go to Actions => Choose "Deploy Jekyll site to Pages"</li>
 </ol>
 
-![We are live, baby!](/images/posts/post-1/we-are-live-baby.png){: .center width="259" height=auto}
+![We are live, baby!](/assets/posts/github-pages-jekyll/we-are-live-baby.png){: .center width="259" height=auto}
 
 Who's a website-owner now? 😎
 

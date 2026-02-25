@@ -1,12 +1,12 @@
 ---
 date: 2025-03-30 22:04:35 +0300
-title: Git Command Reminder Bot
+title: Git Command Bot
 subtitle: Создание Telegram-бота напоминалки комманд Git.
 tools: [Python, API, TG-bot]
 category: [automation, helper, tools]
 lang: RU
 tags: [Python, API, automation]
-image: "/images/projects/project-3/cover.png"
+image: "/assets/projects/git-command-bot/cover.png"
 ---
 
 ### Вопрос

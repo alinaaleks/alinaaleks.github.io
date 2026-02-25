@@ -31,4 +31,4 @@ image: "/images/projects/project-2/cover-1.png"
 
 ### Инструменты
 
-Diagram tools (draw.io / similar)
+Diagram tools

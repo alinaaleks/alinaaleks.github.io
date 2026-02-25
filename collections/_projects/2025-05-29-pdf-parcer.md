@@ -6,7 +6,7 @@ tools: [Python, Excel]
 category: [automation, helper, tools]
 lang: RU
 tags: [Python, Excel, automation]
-image: "/images/projects/project-5/cover.png"
+image: "/assets/projects/pdf-parcer/cover.png"
 ---
 
 ### Вопрос

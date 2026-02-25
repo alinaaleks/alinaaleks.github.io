@@ -3,7 +3,7 @@ date: 2025-04-30 11:19:00 +0300
 title: "More SQL: Queries for Duplicates and Missing Values"
 description: "When faced with real-world, less-than-perfect data..."
 tags: [SQL, data]
-image: "/images/posts/post-5/cover.png"
+image: "/assets/posts/more-sql/cover.png"
 ---
 
 Some of the courses I've tried in data analytics use clean data to work with, which is nice, yet utopian :) That's why whenever I see 'data cleaning' mentioned somewhere, I'm all ears.
@@ -29,7 +29,7 @@ ORDER BY category_id;
 
 <p></p>
 
-![Screenshot - initial table output](/images/posts/post-5/duplicates-00-initial-table.png){: .center width="400" height="auto"}
+![Screenshot - initial table output](/assets/posts/more-sql/duplicates-00-initial-table.png){: .center width="400" height="auto"}
 
 It has only 2 columns, so in order to check for duplicates we are going to:
 
@@ -53,7 +53,7 @@ ORDER BY category_id;
 
 <p></p>
 
-![Screenshot - checking for duplicates output](/images/posts/post-5/duplicates-01-check.png){: .center width="400" height="auto"}
+![Screenshot - checking for duplicates output](/assets/posts/more-sql/duplicates-01-check.png){: .center width="400" height="auto"}
 
 Removing the duplicates is a bit trickier, but step by step, it's easily digestible.
 
@@ -88,7 +88,7 @@ SELECT ctid,
 
 <p></p>
 
-![Screenshot - output with ctid column](/images/posts/post-5/duplicates-02-ctids.png){: .center width="400" height="auto"}
+![Screenshot - output with ctid column](/assets/posts/more-sql/duplicates-02-ctids.png){: .center width="400" height="auto"}
 
 Numbers (0,1), (0,2), ... mean: 0 - page number; 1, 2, etc - row number. Each row is unique, regardless of whether the contents of the rows are identical.
 
@@ -106,7 +106,7 @@ GROUP BY category_id,
 
 <p></p>
 
-![Screenshot - output with MIN ctids](/images/posts/post-5/duplicates-03-min-ctids.png){: .center width="400" height="auto"}
+![Screenshot - output with MIN ctids](/assets/posts/more-sql/duplicates-03-min-ctids.png){: .center width="400" height="auto"}
 
 Thus, to delete only duplicates while keeping the first occurence, we use `NOT IN MIN(ctid)`:
 
@@ -132,7 +132,7 @@ ORDER BY category_id;
 
 <p></p>
 
-![Screenshot - check if duplicates are deleted, final output](/images/posts/post-5/duplicates-04-final-result.png){: .center width="400" height="auto"}
+![Screenshot - check if duplicates are deleted, final output](/assets/posts/more-sql/duplicates-04-final-result.png){: .center width="400" height="auto"}
 
 <p style="text-align: center;">Yay.</p>
 
@@ -142,7 +142,7 @@ ORDER BY category_id;
 
 Now, consider a table like this:
 
-![Screenshot - table with missing values](/images/posts/post-5/missing-values-00-initial-table.png){: .center width="400" height="auto"}
+![Screenshot - table with missing values](/assets/posts/more-sql/missing-values-00-initial-table.png){: .center width="400" height="auto"}
 
 It's quite straightforward to check for missing values by filtering for NULLs.
 
@@ -155,7 +155,7 @@ WHERE name IS NULL;
 
 <p></p>
 
-![Screenshot - output for checking for missing values](/images/posts/post-5/missing-values-01-check.png){: .center width="400" height="auto"}
+![Screenshot - output for checking for missing values](/assets/posts/more-sql/missing-values-01-check.png){: .center width="400" height="auto"}
 
 BUT
 
@@ -174,7 +174,7 @@ WHERE name IS NULL OR TRIM(name) = '';
 
 <p></p>
 
-![Screenshot - output for checking for missing values - with empty strings](/images/posts/post-5/missing-values-01-check-with-strings.png){: .center width="400" height="auto"}
+![Screenshot - output for checking for missing values - with empty strings](/assets/posts/more-sql/missing-values-01-check-with-strings.png){: .center width="400" height="auto"}
 
 Gotcha!
 
@@ -189,7 +189,7 @@ WHERE name IS NULL OR TRIM(name) = '';
 
 <p></p>
 
-![Screenshot - output for counting missing values](/images/posts/post-5/missing-values-02-count.png){: .center width="400" height="auto"}
+![Screenshot - output for counting missing values](/assets/posts/more-sql/missing-values-02-count.png){: .center width="400" height="auto"}
 
 Once found, **what to do with them?**
 

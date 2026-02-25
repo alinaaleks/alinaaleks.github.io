@@ -4,7 +4,7 @@ title: Before Planning Your Day, Plan Your Life
 description: >-
   From vision - through planning - into the action.
 tags: [planning, memos]
-image: /images/posts/post-0/cover.png
+image: /assets/posts/before-planning-your-day/cover.png
 ---
 
 I try **not to do things unless I understand _why_ I’m doing them.** While I don’t have complete clarity in all areas at all times, I do in some, and I focus on those. For the _cloudy_ areas, I work on bringing clarity. One helpful approach I use is **top-to-bottom planning**. Or **backwards engineering.** Sounds more techy :)
@@ -15,7 +15,7 @@ It happens differently each time, as a creative spontaneous act, but the gist re
 
 <p class="notation">Below is a flowchart illustrating the exact steps I took this time.</p>
 
-![Flowchart illustrating top-to-bottom planning from life vision to daily tasks](/images/posts/post-0/flowchart-planning-life.png){: .center width="960" height="896"}
+![Flowchart illustrating top-to-bottom planning from life vision to daily tasks](/assets/posts/before-planning-your-day/flowchart-planning-life.png){: .center width="960" height="896"}
 
 ## The Why
 

@@ -6,14 +6,14 @@ tools: [Notion, Obsidian]
 category: [systems, DB]
 lang: EN
 tags: [Notion, Obsidian, DB]
-image: "/images/projects/project-1/cover.png"
+image: "/assets/projects/recipe-book-template/cover.png"
 ---
 
 ### Question(s)
 
 - How do I filter recipes by the ingredient I found in the fridge?
 - How do I just open the app and click on a recipe I saved for later?
-  Can I know if I already cooked this dish?
+- Can I know if I already cooked this dish?
 
 ### Problem / situation
 
@@ -32,7 +32,7 @@ Design a linked database system (recipes–ingredients–cooking experiences) an
 
 Notion, Airtable, Obsidian, Python, API
 
-![Basic Logic](/images/projects/project-1/basic-logic.gif){: width="1200" height="676"}
+![Basic Logic](/assets/projects/recipe-book-template/basic-logic.gif){: width="1200" height="676"}
 
 Tags! Type of dish, type of food, preparation style, cuisine? sometimes its
 obvious, sometimes I google it, sometimes I put it by association.
@@ -40,7 +40,7 @@ obvious, sometimes I google it, sometimes I put it by association.
 Setting a tag try to use variation from each category - this way you enrich
 your searching.
 
-![Tagging system](/images/projects/project-1/tagging-system.png){: width="1024" height="768"}
+![Tagging system](/assets/projects/recipe-book-template/tagging-system.png){: width="1024" height="768"}
 
 Notion recipe book is about:
 • Structure
@@ -50,10 +50,10 @@ Notion recipe book is about:
 • Mental clarity
 • Everyday efficiency
 
-![Correct template](/images/projects/project-1/correct-template.gif){: width="1200" height="676"}
+![Correct template](/assets/projects/recipe-book-template/correct-template.gif){: width="1200" height="676"}
 
 > The dog was going bananas when banana pie arrived at the table.
 
-![Yum](/images/projects/project-1/dog-and-pie.jpg){: width="400" height="400"}
+![Yum](/assets/projects/recipe-book-template/dog-and-pie.jpg){: width="400" height="400"}
 
 So, I hope you enjoy this Template and bon appetit!

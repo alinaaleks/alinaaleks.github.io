@@ -3,7 +3,7 @@ date: 2025-03-30 20:22:00 +0300
 title: "Training, Validation, Test Datasets"
 description: "Exploring how data is split for building the model."
 tags: [ML, data, memos]
-image: "/images/posts/post-7/cover.png"
+image: "/assets/posts/training-validation-test/cover.png"
 ---
 
 This week I have the flu. I moved my desk closer to the bed and... blacked out, then... binge-watched a few movies 😄 , and after that...
@@ -27,7 +27,7 @@ In order to test the model we could split the photos into 70% (700 photos) for t
 
 The model learns from the smaller training set, then we check how well it’s learning on the validation set, and finally test the model on unseen photos (300) to see if it really understands the difference.
 
-![Training, validation, and test datasets chart](/images/posts/post-7/training-validation-test-datasets.png){: .center width="600" height="auto"}
+![Training, validation, and test datasets chart](/assets/posts/training-validation-test/training-validation-test-datasets.png){: .center width="600" height="auto"}
 
 <p></p>
 

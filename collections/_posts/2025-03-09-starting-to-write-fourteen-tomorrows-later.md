@@ -4,7 +4,7 @@ title: Starting to Write — 14 Tomorrows Later
 description: >-
   On finally putting my thoughts into words &mdash; and how Elvis makes me believe in endless possibilities.
 tags: [writing, singing]
-image: /images/posts/post-3/cover.png
+image: /assets/posts/starting-to-write/cover.png
 ---
 
 It’s interesting **how we sometimes need reminders even about our important decisions.** This post serves as a reminder of why I decided to start writing.
@@ -42,7 +42,7 @@ Thank you, Elvis, for putting up with me this long.
 If you know and like this song, I bet it's been playing in your head ever since I mentioned it. You’re welcome. 😉
 
 <audio class="audio-player" controls>
-  <source src="/assets/audio/elvis-starting-today.mp3" type="audio/mpeg">
+  <source src="/assets/posts/starting-to-write/elvis-starting-today.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 <p class="now-playing">Now playing: Elvis Presley - Starting Today</p>

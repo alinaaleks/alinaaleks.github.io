@@ -3,7 +3,7 @@ date: 2026-02-16 12:00:00 +3000
 title: "Hacker Skills: Using Your Keyboard More Efficiently"
 description: "Going beyond Ctrl-C and Ctrl-V to make daily work faster."
 tags: [memos]
-image: /images/posts/post-9/cover.png
+image: /assets/posts/hacker-skills/cover.png
 ---
 
 I’ve always admired people who live almost entirely on their keyboard. I was the first in my circle to master **Ctrl-C** and **Ctrl-V** 😎. Add **Ctrl-X** and **Ctrl-A**, and I felt like a keyboard ninja. 😄
@@ -82,6 +82,6 @@ git config --global alias.lg "log --oneline --graph --decorate"
 
 So now, I just type `git s`, `git c` (only adding a message after), `git lg` and how great it feels.
 
-![Git Bash examples](/images/posts/post-9/git-bash-example.png){: .center width="600" height="auto"}
+![Git Bash examples](/assets/posts/hacker-skills/git-bash-example.png){: .center width="600" height="auto"}
 
 ---

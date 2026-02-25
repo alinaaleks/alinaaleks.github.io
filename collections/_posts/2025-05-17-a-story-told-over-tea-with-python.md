@@ -3,7 +3,7 @@ date: 2025-05-17 22:22:00 +0300
 title: "A Story Told Over Tea (with Python)"
 description: "A tale of app migrations, meaning, and automations."
 tags: [Python, lyrical]
-image: "/images/posts/post-8/laptop-is-my-cup-of-tea.jpg"
+image: "/assets/posts/a-story-told-over-tea/cover.jpg"
 ---
 
 Today I’m wrapped in my cozy robe, sipping hibiscus tea, and about to dive into the past.  
@@ -65,7 +65,7 @@ Yes, I also had to understand the code, test it, tweak it — but the whole proc
 
 Watching those lines — `Downloading image.jpg` — appear, one by one...
 
-![Printed message in Jupyter Notebook that Images were Downloaded](/images/posts/post-8/jupyter-imgs-downloaded.png){: .center width="600" height="auto"}
+![Printed message in Jupyter Notebook that Images were Downloaded](/assets/posts/a-story-told-over-tea/jupyter-imgs-downloaded.png){: .center width="600" height="auto"}
 
 ...was such a pleasure to experience!
 
@@ -85,6 +85,6 @@ I imagine I might be coming back to it more than once. [2]
 
 Thank you for a warm chat.
 
-![Thank you note in a cup](/images/posts/post-8/thank-you-note.jpg){: .center width="500" height="auto"}
+![Thank you note in a cup](/assets/posts/a-story-told-over-tea/thank-you-note.jpg){: .center width="500" height="auto"}
 
 ---

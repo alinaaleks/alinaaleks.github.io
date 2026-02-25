@@ -3,7 +3,7 @@ date: 2025-03-16 23:59:59 +0300
 title: Data Science Begins
 description: and Github awaits.
 tags: [data]
-image: "/images/posts/post-2/ds-book-flower.jpg"
+image: "/assets/posts/ds-begins/cover.jpg"
 ---
 
 They say **you will truly excel in something you feel you can do forever** — or for free.
@@ -28,7 +28,7 @@ ChatGPT made me more fearless in a way. Before, I wouldn’t have known how to a
 
 Just try them out and commit.
 
-![Image showing pattern on bathroom tiles similar to github activity pattern](/images/posts/post-2/github-activity-on-bathroom-tiles.jpg){: .center width="250" height="368"}
+![Image showing pattern on bathroom tiles similar to github activity pattern](/assets/posts/ds-begins/github-activity-on-bathroom-tiles.jpg){: .center width="250" height="368"}
 
 <p class="notation">I saw this image recently and was amused and inspired by it at the same time.</p>
 

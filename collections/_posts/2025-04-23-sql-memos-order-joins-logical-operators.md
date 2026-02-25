@@ -3,7 +3,7 @@ date: 2025-04-23 23:19:00 +0300
 title: "SQL Memos: Order, Joins, Logical Operators"
 description: "Basic SQL references I keep coming to again and again."
 tags: [SQL, memos]
-image: "/images/posts/post-4/cover.png"
+image: "/assets/posts/sql-memos/cover.png"
 ---
 
 It's going to be an infographic post.
@@ -21,7 +21,7 @@ While preparing for a test, I revisited the main concepts of SQL and realized th
 
 I was surprised when I first learned that `SELECT` is executed toward the end. Now I know better.
 
-![Image showing order of querying and execution](/images/posts/post-4/order-of-querying-execution.png){: .center width="600" height="auto"}
+![Image showing order of querying and execution](/assets/posts/sql-memos/order-of-querying-execution.png){: .center width="600" height="auto"}
 
 It also helped me understand why I can’t use aliases I give in `SELECT` &mdash; in `WHERE` or `HAVING`, like here:
 
@@ -54,7 +54,7 @@ This one I use quite a lot. Helps to understand which data from joined tables is
 
 Handy, visual, and quick to grasp.
 
-![SQL Joins illustrated in Venn diagrams](/images/posts/post-4/sql-joins.png){: .center width="600" height="auto"}
+![SQL Joins illustrated in Venn diagrams](/assets/posts/sql-memos/sql-joins.png){: .center width="600" height="auto"}
 
 ---
 
@@ -66,7 +66,7 @@ Logical operators are used to combine multiple conditions inside a query so to f
 - `HAVING` => to filter grouped results
 - `ON` => to define join conditions
 
-![SQL Logical operators and wildcards](/images/posts/post-4/sql-logical-operators.png){: .center width="600" height="auto"}
+![SQL Logical operators and wildcards](/assets/posts/sql-memos/sql-logical-operators.png){: .center width="600" height="auto"}
 
 What about wildcards? I just love the fact that some 'cards' are wild. So relatable.
 

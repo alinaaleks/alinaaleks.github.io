@@ -6,7 +6,7 @@ tools: [Google Sheets, Apps Script]
 category: [analysis]
 lang: EN
 tags: [Google Sheets, Apps Script, analysis]
-image: "/images/projects/project-2/cover.png"
+image: "/assets/projects/chocolate-price-modelling/cover.png"
 ---
 
 ### Question(s)

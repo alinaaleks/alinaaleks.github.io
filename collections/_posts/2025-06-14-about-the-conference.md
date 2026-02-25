@@ -3,7 +3,7 @@ date: 2025-06-14 22:00:00 +3000
 title: Intro to Graphs, LLM and ILP
 description: "Impressions after the Data Conference."
 tags: [AI, Math, data]
-image: /images/posts/post-6/chat-gpt-for-readers.png
+image: /assets/posts/about-the-conference/cover.png
 ---
 
 I have been to the **Data Conference** this April in Moscow. It lasted for 2 days, and I can honestly say I heard A LOT of unfamiliar words.
@@ -33,7 +33,7 @@ The conference gave me more than just a long list of unknown terms — it gave m
 
 It is a way to represent things and relationships between them. They help to see patterns that aren’t obvious in a table of data.
 
-![Graph view in Obsidian app](/images/posts/post-6/graphs-obsidian.gif){: .center width="1920" height="auto"}
+![Graph view in Obsidian app](/assets/posts/about-the-conference/graphs-obsidian.gif){: .center width="1920" height="auto"}
 
 <p class="notation">It is a Graph view illustrating my notes and their connections in Obsidian app.</p>
 
@@ -64,7 +64,7 @@ ILP is a mathematical way to solve optimization problems, where you want to maxi
 
 I think visual conveys it better.
 
-![Integer Linear Programming Logic](/images/posts/post-6/ILP-logic.png){: .center width="800" height="auto"}
+![Integer Linear Programming Logic](/assets/posts/about-the-conference/ilp-logic.png){: .center width="800" height="auto"}
 
 **Applications:**
 
