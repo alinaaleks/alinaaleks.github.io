@@ -23,13 +23,10 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  title: Hi there, I am Vanessa Marley
-  description_html: <strong>Photographer</strong> and <strong>Visual Content
-    Strategist</strong> from Albany. I work as a lifestyle, product, and
-    landscape photographer, creating images for a diverse range of requests,
-    from online media to printed artwork.
+  title: Hi there, I am Alina
+  description_html: I see the world in systems, and use data, logic, and code to understand and improve them. On my website I share thoughts and experiments from this journey.
   image: /assets/pages/home/hero.jpg
-  image_alt: Vanessa Marley's picture
+  image_alt: Working on a fresh air
   cta_button: Get in touch
   cta_button_link: "#contact"
   works_button: See my works
