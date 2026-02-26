@@ -71,6 +71,11 @@ tag_permalink_style: /:title
 tag_project_page_dir: tag-project
 tag_project_page_layout: tag_project
 tag_project_permalink_style: /project/tag/:title
+
+# Languages
+Languages: ["en", "ru"]
+default_lang: "en"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
