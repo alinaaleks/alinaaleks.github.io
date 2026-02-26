@@ -2,9 +2,17 @@
 <div class="container animate">
   <div class="row">
     {% assign projects_sorted = site.projects | sort: "date" | reverse %}
-    {% for project in projects_sorted %}
+    {% assign current_lang = page.lang | default: site.default_lang %}
+
+    {% assign filtered_projects = projects_sorted | where: "lang", current_lang %}
+
+    {% for project in filtered_projects %}
       {% bookshop project-card project=project %}
     {% endfor %}
+
+    {% if filtered_projects.size == 0 %}
+      <p>No projects available in this language yet.</p>
+    {% endif %}
   </div>
 </div>
 {% endif %}

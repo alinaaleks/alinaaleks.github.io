@@ -16,11 +16,13 @@
           {% if include.show_projects %}
           <div class="row">
             {% assign projects_sorted = site.projects | sort: "date" | reverse %}
-            {% for project in projects_sorted %}
-              {% if forloop.index <= 3 %}
+            {% assign current_lang = page.lang | default: site.default_lang %}
+
+            {% assign filtered_projects = projects_sorted | where: "lang", current_lang %}
+
+              {% for project in filtered_projects limit: 3 %}
                 {% bookshop project-card project=project %}
-              {% endif %}
-            {% endfor %}
+              {% endfor %}
           </div>
           {% endif %}
 
