@@ -1,5 +1,5 @@
-lang: ru
-ref: footer
+lang: "ru"
+ref: "footer"
 
 footer_menu__settings:
   menu__items:

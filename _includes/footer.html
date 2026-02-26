@@ -6,15 +6,25 @@
 
         {% bookshop_include social-link %}
 
+        {% assign current_lang = page.lang | default: site.default_lang %}
+        {% assign footer_file = "footer_" | append: current_lang %}
+        {% assign footer = site.data[footer_file] | default: site.data.footer_en %}
+
+        {% assign footer_items = footer.footer_menu__settings.menu__items | default: [] %}
+
         <ul class="footer_nav list-reset">
-          {% for item in site.data.footer.footer_menu__settings.menu__items %}
+          {% for item in footer_items %}
           <li class="footer_nav__item">
-            <a href="{{ item.url | relative_url }}" class="footer_nav__link">{{ item.title }}</a>
+            <a href="{{ item.url | relative_url }}" class="footer_nav__link">
+              {{ item.title }}
+            </a>
           </li>
           {% endfor %}
         </ul>
 
-        <div class="copyright">{{ site.data.footer.copyright_text_html }}</div>
+        <div class="copyright">
+          {{ footer.copyright_text_html }}
+        </div>
 
       </div>
     </div>

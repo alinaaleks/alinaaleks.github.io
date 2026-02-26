@@ -1,5 +1,5 @@
-lang: en
-ref: footer
+lang: "en"
+ref: "footer"
 
 footer_menu__settings:
   menu__items:
