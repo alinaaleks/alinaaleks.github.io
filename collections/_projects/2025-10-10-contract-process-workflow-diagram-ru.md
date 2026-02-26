@@ -1,13 +1,14 @@
 ---
 date: 2025-10-10 14:00:35 +0300
-title: Contract Process Workflow
-subtitle: Creating a diagram for standardization and transparency within the company.
+title: Схема Процесса Заключения Договора
+subtitle: Создание схемы для унификации и прозрачности процесса в компании.
 category: [logic, visuals]
 tools: [diagram]
 tags: [logic, visuals]
 image: "/images/projects/project-2/cover-1.png"
-lang: en
+lang: ru
 ref: contract-process-workflow
+translated: true
 ---
 
 ### Вопрос

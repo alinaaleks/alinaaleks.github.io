@@ -1,13 +1,14 @@
 ---
 date: 2026-02-20 17:00:35 +0300
-title: Contracts Payments Database
+title: База Данных Договоров и Платежей
 subtitle: "---"
 category: [analysis, DB, visuals]
 tools: [Excel, Power Query, SQL, Power BI]
 tags: [Excel, Power Query, SQL, Power BI]
 image: "/images/projects/project-2/cover-1.png"
-lang: en
+lang: ru
 ref: contracts-payments-db
+translated: true
 ---
 
 ### Вопрос

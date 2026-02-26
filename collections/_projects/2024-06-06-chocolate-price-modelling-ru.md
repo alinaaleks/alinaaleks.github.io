@@ -1,13 +1,14 @@
 ---
 date: 2024-06-06 22:00:35 -0600
-title: Chocolate Price Modelling
-subtitle: Cooking with style and with ease.
+title: Себестоимость шоколада
+subtitle: "---"
 category: [analysis]
 tools: [Google Sheets, Apps Script]
 tags: [Google Sheets, Apps Script, analysis]
 image: "/assets/projects/chocolate-price-modelling/cover.png"
-lang: en
+lang: ru
 ref: chocolate-price-modelling
+translated: false
 ---
 
 ### Question(s)

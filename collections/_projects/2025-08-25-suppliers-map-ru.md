@@ -1,13 +1,14 @@
 ---
 date: 2025-08-25 16:00:35 +0300
-title: Suppliers Map
+title: Карта Поставщиков
 subtitle: "---"
 category: [visuals]
 tools: [Excel, AppSheet]
 tags: [Excel, AppSheet, visuals]
 image: "/images/projects/project-2/cover-1.png"
-lang: en
+lang: ru
 ref: suppliers-map
+tramslated: true
 ---
 
 ### Вопрос

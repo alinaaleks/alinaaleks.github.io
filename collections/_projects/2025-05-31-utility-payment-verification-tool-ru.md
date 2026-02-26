@@ -1,13 +1,14 @@
 ---
 date: 2025-05-31 23:21:35 +0300
-title: Utility Payment Verification
-subtitle: Еool for checking utility charges
+title: Инструмент Проверки Коммунальных Счетов
+subtitle: Инструмент для проверки коммунальных начислений
 category: [analysis, automation, tools]
 tools: [Excel]
 tags: [Excel, analysis, automation]
 image: "/images/projects/project-2/cover-1.png"
-lang: en
+lang: ru
 ref: utility-payment-verification
+translated: true
 ---
 
 [PDF-парсер](/project/pdf-parcer) позволяет получить данные из квитанций, а Excel-приложение проверяет их на соответствие действующим тарифам.

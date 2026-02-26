@@ -1,14 +1,14 @@
 ---
 date: 2025-05-29 00:59:35 +0300
-title: PDF-parcer
-subtitle: Tool for extracting data from PDF to Excel.
+title: PDF-парсер
+subtitle: Инструмент для извлечения данных из PDF в Excel.
 category: [automation, helper, tools]
 tools: [Python, Excel]
 tags: [Python, Excel, automation]
 image: "/assets/projects/pdf-parcer/cover.png"
 lang: ru
 ref: pdf-parcer
-translated: false
+translated: true
 ---
 
 ### Вопрос

@@ -1,13 +1,14 @@
 ---
 date: 2025-02-14 02:10:00 +0300
-title: N Club Attendance
+title: Посещаемость Кружка N
 subtitle: "---"
 category: [analysis, visual]
 tools: [Excel, Yandex DataLens]
 tags: [Excel, Yandex DataLens, analysis]
 image: "/assets/projects/n-club-attendance/cover.png"
-lang: en
+lang: ru
 ref: n-club-attendance
+translated: true
 ---
 
 ### Вопрос

@@ -1,13 +1,14 @@
 ---
 date: 2025-04-10 22:04:35 +0300
-title: Image Downloader
-subtitle: Tool for downloading images via API.
+title: Загрузчик Изображений
+subtitle: Инструмент для скачивания изображений через API.
 category: [automation, helper, tools]
 tools: [Python, API]
 tags: [Python, API, automation]
 image: "/images/projects/project-2/cover-1.png"
-lang: en
+lang: ru
 ref: image-downloader
+translated: true
 ---
 
 ### Вопрос

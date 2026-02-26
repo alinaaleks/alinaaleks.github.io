@@ -1,13 +1,14 @@
 ---
 date: 2023-11-29 22:00:35 -0600
-title: Recipe Book Template
-subtitle: Cooking with style and with ease.
+title: Шаблон Книги Рецептов
+subtitle: "---"
 category: [systems, DB]
 tools: [Notion, Obsidian]
 tags: [Notion, Obsidian, DB]
 image: "/assets/projects/recipe-book-template/cover.png"
-lang: en
+lang: ru
 ref: recipe-book-template
+translated: false
 ---
 
 ### Question(s)

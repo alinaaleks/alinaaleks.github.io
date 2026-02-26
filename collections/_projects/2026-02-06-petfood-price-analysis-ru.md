@@ -1,13 +1,14 @@
 ---
 date: 2026-02-06 14:00:35 +0300
-title: Petfood Price Analysis
-subtitle: Quick analytical overview with comparison by segments, brands, and sales channels.
+title: Анализ Цен на Корм для Питомцев
+subtitle: Быстрый аналитический обзор со сравнением по сегментам, брендам и каналам продаж.
 category: [analysis]
 tools: [Excel, pivot]
 tags: [Excel, Python]
 image: "/images/projects/project-2/cover-1.png"
-lang: en
+lang: ru
 ref: petfood-price-analysis
+translated: true
 ---
 
 ### Вопрос
