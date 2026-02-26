@@ -6,7 +6,7 @@ category: [automation, helper, tools]
 tools: [Python, Excel]
 tags: [Python, Excel, automation]
 image: "/assets/projects/pdf-parcer/cover.png"
-lang: ru
+lang: en
 ref: pdf-parcer
 translated: false
 ---
