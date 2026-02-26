@@ -4,10 +4,19 @@
     <div class="row">
       <div class="c-header__inner">
 
+        {% assign current_lang = page.lang | default: site.default_lang %}
+
+{% comment %} Use dynamic nav file safely {% endcomment %}
+{% assign nav_file = "navigation_" | append: current_lang %}
+{% assign navigation = site.data[nav_file] | default: site.data.navigation_en %}
+
+{% comment %} Use default empty array if something goes wrong {% endcomment %}
+{% assign menu_items = navigation.menu__settings.menu__items | default: [] %}
+
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
-          {%if site.data.navigation.logo_image %}
-            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}" alt="{{ site.data.general_settings.title }}">
+          {%if navigation.logo_image %}
+            <img class="logo__image" src="{{ site.baseurl }}{{ navigation.logo_image }}" alt="{{ site.data.general_settings.title }}">
           {% else %}
             {{ site.data.settings.title }}
           {% endif %}
@@ -24,29 +33,38 @@
             <div class="nav__title">Menu</div>
 
               <ul class="nav__list list-reset">
+  {% for item in menu_items %}
+    {% if item.submenu %}
+      <li class="nav__item dropdown">
+        <span class="nav__link dropdown-toggle">
+          {{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i>
+        </span>
 
-              {% for item in site.data.navigation.menu__settings.menu__items %}
-                {% if item.submenu %}
-                <li class="nav__item dropdown">
-                  <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
-                  <div class="dropdown-menu">
-                    {% for submenu-item in item.submenu %}
-                      <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
-                    {% endfor %}
-                  </div>
-                </li>
+        <div class="dropdown-menu">
+          {% for submenu_item in item.submenu %}
+            <a href="{{ submenu_item.url | relative_url }}"
+               class="nav__link{% if page.url == submenu_item.url %} active-link{% endif %}">
+               {{ submenu_item.title }}
+            </a>
+          {% endfor %}
+        </div>
+      </li>
 
-                {% else %}
-                <li class="nav__item">
-                  <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
-                </li>
-                {% endif %}
-              {% endfor %}
-
-            </ul>
+    {% else %}
+      <li class="nav__item">
+        <a href="{{ item.url | relative_url }}"
+           class="nav__link{% if page.url == item.url %} active-link{% endif %}">
+           {{ item.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
           </div>
 
           {% bookshop_include social-link %}
+
+          {% include lang-switcher.html %}
         </nav>
 
         <div class="nav-button">

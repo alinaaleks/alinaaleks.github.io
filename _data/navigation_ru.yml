@@ -1,12 +1,12 @@
 logo_image: "/assets/main/logo.svg" # You can add own logo. For example '/images/logo.png'.
-lang: ru
-ref: navigation
+lang: "ru"
+ref: "navigation"
 
 menu__settings:
   menu__items:
     - title: "Главная"
       url: "/ru/"
-    - title: Проекты"
+    - title: "Проекты"
       url: "/ru/projects/"
     - title: "Заметки"
       url: "/ru/blog/"
