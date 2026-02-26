@@ -5,14 +5,14 @@ ref: navigation
 menu__settings:
   menu__items:
     - title: "Главная"
-      url: "/"
+      url: "/ru/"
     - title: Проекты"
-      url: "/projects/"
+      url: "/ru/projects/"
     - title: "Заметки"
-      url: "/blog/"
+      url: "/ru/blog/"
     - title: "Еще"
       submenu:
-        - url: "/resume/"
+        - url: "/ru/resume/"
           title: "Резюме"
-        - url: "/about/"
+        - url: "/ru/about/"
           title: "Обо мне"

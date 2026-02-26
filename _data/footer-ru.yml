@@ -4,15 +4,15 @@ ref: footer
 footer_menu__settings:
   menu__items:
     - title: "Главная"
-      url: "/"
+      url: "/ru/"
     - title: "Проекты"
-      url: "/projects/"
+      url: "/ru/projects/"
     - title: "Заметки"
-      url: "/blog/"
+      url: "/ru/blog/"
     - title: "Резюме"
-      url: "/resume/"
+      url: "/ru/resume/"
     - title: "Обо мне"
-      url: "/about/"
+      url: "/ru/about/"
 
 copyright_text_html: >-
   <p> 2021 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
