@@ -1,17 +1,17 @@
-lang: en
+lang: ru
 ref: footer
 
 footer_menu__settings:
   menu__items:
-    - title: "Home"
+    - title: "Главная"
       url: "/"
-    - title: "Projects"
+    - title: "Проекты"
       url: "/projects/"
-    - title: "Notes"
+    - title: "Заметки"
       url: "/blog/"
-    - title: "Resume"
+    - title: "Резюме"
       url: "/resume/"
-    - title: "About"
+    - title: "Обо мне"
       url: "/about/"
 
 copyright_text_html: >-

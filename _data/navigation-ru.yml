@@ -1,18 +1,18 @@
 logo_image: "/assets/main/logo.svg" # You can add own logo. For example '/images/logo.png'.
-lang: en
+lang: ru
 ref: navigation
 
 menu__settings:
   menu__items:
-    - title: "Home"
+    - title: "Главная"
       url: "/"
-    - title: "Projects"
+    - title: Проекты"
       url: "/projects/"
-    - title: "Notes"
+    - title: "Заметки"
       url: "/blog/"
-    - title: "More"
+    - title: "Еще"
       submenu:
         - url: "/resume/"
-          title: "Resume"
+          title: "Резюме"
         - url: "/about/"
-          title: "About"
+          title: "Обо мне"
