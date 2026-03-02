@@ -81,9 +81,11 @@
 		background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
 
 		&:hover {
-			&:before {
-				opacity: 1;
-			}
+  		color: $text-color;
+
+  		&:before {
+    		opacity: 1;
+  		}
 		}
 
 		&::before {
@@ -105,6 +107,23 @@
 		&:last-child {
 			margin: 0 0 4px 0;
 		}
+
+		&--tool {
+    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+
+    &::before {
+      background: linear-gradient(90deg, $primary-color 0%, $secondary-color 107%);
+    }
+  }
+
+	&--category {
+    background: linear-gradient(90deg, $purple-dark 0%, $purple-light 167%);
+
+    &::before {
+      background: linear-gradient(90deg, $purple-dark 0%, $purple-light 107%);
+    }
+  }
+
 	}
 }
 

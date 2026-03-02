@@ -16,19 +16,17 @@
         </div>
       {% endif %}
 
-      <div class="{{c}}__separator"></div>  <!-- ← separator line -->
+      <div class="{{c}}__separator"></div>
 
       {% if include.project.date %}
-  {% assign year = include.project.date | date: "%Y" %}
-  {% assign month_index = include.project.date | date: "%-m" | minus: 1 %}
-  
-  {% assign current_lang = page.lang | default: site.default_lang %}
-  {% assign months = site.data.months[current_lang] %}
+        {% assign year = include.project.date | date: "%Y" %}
+        {% assign month_index = include.project.date | date: "%-m" | minus: 1 %}
+        {% assign months = site.data.months[current_lang] %}
 
-  <div class="{{c}}__date">
-    {{ months[month_index] }} {{ year }}
-  </div>
-{% endif %}
+        <div class="{{c}}__date">
+          {{ months[month_index] }} {{ year }}
+        </div>
+      {% endif %}
 
     </div>
 
@@ -36,17 +34,31 @@
 
   <div class="{{c}}__content">
 
-    <h3 class="{{c}}__title">
-      {{ include.project.title }}
-    </h3>
+<h3 class="{{c}}__title">
+  <a href="{{ include.project.url }}" class="{{c}}__title-link">
+    {{ include.project.title }}
+  </a>
+</h3>
 
-    {% if include.project.tags.size >= 1 %}
-      <div class="{{c}}__tags-box">
-        {% for tag in include.project.tags %}
-        <a href="{{ site.baseurl }}/tag-project/{{ tag | downcase }}" class="{{c}}__tag">{{ tag }}</a>
-        {% endfor %}
-      </div>
+{% if include.project.tags.size >= 1 %}
+  <div class="{{c}}__tags-box">
+    {% for tag in include.project.tags %}
+      {% assign normalized_tag = tag | capitalize %}
+      {% assign localized_tag = site.data.tags[normalized_tag][current_lang] | default: tag %}
+      {% assign tag_type = site.data.tags[normalized_tag].type | default: "category" %}
+
+      {% if current_lang == "ru" %}
+        {% assign tag_href = site.baseurl | append: "/ru/tag-project/" | append: normalized_tag | downcase %}
+      {% else %}
+        {% assign tag_href = site.baseurl | append: "/tag-project/" | append: normalized_tag | downcase %}
       {% endif %}
+
+      <a href="{{ tag_href }}" class="{{c}}__tag {{c}}__tag--{{ tag_type }}">
+        {{ localized_tag }}
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}
 
   </div>
 

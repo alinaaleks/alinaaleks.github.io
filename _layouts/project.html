@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign current_lang = page.lang | default: site.default_lang %}
+
 {% if page.image %}
 <div class="post-top">
   <div class="container">
@@ -20,14 +22,24 @@ layout: default
           {% endif %}
 
           {% if page.tags and page.tags.size > 0 %}
-          <div class="post-tags">
-            {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag-project/{{ tag | downcase }}" class="post-tags__tag">
-                {{ tag }}
-              </a>
-            {% endfor %}
-          </div>
-          {% endif %}
+  <div class="post-tags">
+    {% for tag in page.tags %}
+      {% assign normalized_tag = tag | capitalize %}
+      {% assign localized_tag = site.data.tags[normalized_tag][current_lang] | default: tag %}
+      {% assign tag_type = site.data.tags[normalized_tag].type | default: "category" %}
+
+      {% if current_lang == "ru" %}
+        {% assign tag_href = site.baseurl | append: "/ru/tag-project/" | append: normalized_tag | downcase %}
+      {% else %}
+        {% assign tag_href = site.baseurl | append: "/tag-project/" | append: normalized_tag | downcase %}
+      {% endif %}
+
+      <a href="{{ tag_href }}" class="post-tags__tag post-tags__tag--{{ tag_type }}">
+        {{ localized_tag }}
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}
 
         </div>
       </div>
