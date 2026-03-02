@@ -1,0 +1,91 @@
+# Tools
+Excel:
+  en: Excel
+  ru: Excel
+  type: tool
+
+Power Query:
+  en: Power Query
+  ru: Power Query
+  type: tool
+
+SQL:
+  en: SQL
+  ru: SQL
+  type: tool
+
+Python:
+  en: Python
+  ru: Python
+  type: tool
+
+Power BI:
+  en: Power BI
+  ru: Power BI
+  type: tool
+
+VBA:
+  en: VBA
+  ru: VBA
+  type: tool
+
+AppSheet:
+  en: AppSheet
+  ru: AppSheet
+  type: tool
+
+API:
+  en: API
+  ru: API
+  type: tool
+
+Yandex DataLens:
+  en: Yandex DataLens
+  ru: Яндекс DataLens
+  type: tool
+
+Google Sheets:
+  en: Google Sheets
+  ru: Google Таблицы
+  type: tool
+
+Notion:
+  en: Notion
+  ru: Notion
+  type: tool
+
+Obsidian:
+  en: Obsidian
+  ru: Obsidian
+  type: tool
+
+Databases:
+  en: Databases
+  ru: Базы данных
+  type: tool
+
+# Categories
+Automation:
+  en: Automation
+  ru: Автоматизация
+  type: category
+
+Helper:
+  en: Helper
+  ru: Помощник
+  type: category
+
+Logic:
+  en: Logic
+  ru: Логика
+  type: category
+
+Visuals:
+  en: Visuals
+  ru: Визуализация
+  type: category
+
+Analysis:
+  en: Analysis
+  ru: Анализ
+  type: category
