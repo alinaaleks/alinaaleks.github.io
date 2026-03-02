@@ -1,14 +1,18 @@
-{% assign current_ref = page.ref %}
 {% assign current_lang = page.lang | default: site.default_lang %}
+{% assign current_ref = page.ref %}
 
-{% for p in site.pages %}
-  {% if p.ref == current_ref and p.lang != current_lang %}
-    <a class="lang-switch" href="{{ p.url }}">
-      {% if current_lang == "en" %}
-        RU
-      {% else %}
-        EN
-      {% endif %}
-    </a>
-  {% endif %}
-{% endfor %}
+{% if current_ref %}
+  {% assign all_pages = site.pages | concat: site.projects | concat: site.posts %}
+
+  {% for p in all_pages %}
+    {% if p.ref == current_ref and p.lang != current_lang %}
+      <a class="lang-switch" href="{{ p.url | relative_url }}">
+        {% if current_lang == "en" %}
+          RU
+        {% else %}
+          EN
+        {% endif %}
+      </a>
+    {% endif %}
+  {% endfor %}
+{% endif %}
