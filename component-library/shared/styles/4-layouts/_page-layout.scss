@@ -81,7 +81,7 @@
 		background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
 
 		&:hover {
-  		color: $text-color;
+  		// color: $text-color;
 
   		&:before {
     		opacity: 1;
@@ -114,14 +114,46 @@
     &::before {
       background: linear-gradient(90deg, $primary-color 0%, $secondary-color 107%);
     }
+
+		&:hover {
+    background: linear-gradient(
+      90deg,
+      darken($primary-color, 5%) 0%,
+      darken($secondary-color, 5%) 167%
+    );
+
+    &::before {
+      background: linear-gradient(
+        90deg,
+        darken($primary-color, 5%) 0%,
+        darken($secondary-color, 5%) 107%
+      );
+    }
+  }
   }
 
 	&--category {
-    background: linear-gradient(90deg, $purple-dark 0%, $purple-light 167%);
+    background: linear-gradient(90deg, $category-primary 0%, $category-secondary 167%);
 
     &::before {
-      background: linear-gradient(90deg, $purple-dark 0%, $purple-light 107%);
+      background: linear-gradient(90deg, $category-primary 0%, $category-secondary 107%);
     }
+
+		&:hover {
+    background: linear-gradient(
+      90deg,
+      darken($category-primary, 5%) 0%,
+      darken($category-secondary, 5%) 167%
+    );
+
+    &::before {
+      background: linear-gradient(
+        90deg,
+        darken($category-primary, 5%) 0%,
+        darken($category-secondary, 5%) 107%
+      );
+    }
+  }
   }
 
 	}

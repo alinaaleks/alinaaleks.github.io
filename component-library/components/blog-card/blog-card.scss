@@ -76,10 +76,25 @@
     background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
 
     &:hover {
-      &:before {
-        opacity: 1;
-      }
+  		color: $white;
+      background: linear-gradient(
+      90deg,
+      darken($primary-color, 5%) 0%,
+      darken($secondary-color, 5%) 167%
+    );
+
+  		&:before {
+    		opacity: 1;
+  		}
+
+      &::before {
+      background: linear-gradient(
+        90deg,
+        darken($primary-color, 5%) 0%,
+        darken($secondary-color, 5%) 107%
+      );
     }
+		}
 
     &::before {
       content: "";
