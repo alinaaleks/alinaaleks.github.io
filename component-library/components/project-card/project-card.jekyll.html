@@ -1,30 +1,53 @@
 {% assign c = "c-project-card" %}
+
 <article class="{{c}} col col-4 col-d-6 col-t-12">
+
+  <a href="{{ include.project.url }}" class="{{c}}__image">
+
+    <img loading="lazy"
+         src="{{ include.project.image }}"
+         alt="{{ include.project.title }}">
+
+    <div class="{{c}}__overlay">
+
+      {% if include.project.subtitle %}
+        <div class="{{c}}__subtitle">
+          {{ include.project.subtitle }}
+        </div>
+      {% endif %}
+
+      <div class="{{c}}__separator"></div>  <!-- ← separator line -->
+
+      {% if include.project.date %}
+  {% assign year = include.project.date | date: "%Y" %}
+  {% assign month_index = include.project.date | date: "%-m" | minus: 1 %}
+  
+  {% assign current_lang = page.lang | default: site.default_lang %}
+  {% assign months = site.data.months[current_lang] %}
+
+  <div class="{{c}}__date">
+    {{ months[month_index] }} {{ year }}
+  </div>
+{% endif %}
+
+    </div>
+
+  </a>
+
   <div class="{{c}}__content">
 
-    <a href="{{ include.project.url }}" class="{{c}}__image">
-      <img loading="lazy" src="{{ include.project.image }}" alt="{{ include.project.title }}">
-    </a>
+    <h3 class="{{c}}__title">
+      {{ include.project.title }}
+    </h3>
 
-    <!-- ALWAYS VISIBLE -->
-    <div class="{{c}}__meta">
-      <h3 class="{{c}}__title">{{ include.project.title }}</h3>
-
-      {% if include.project.tags %}
-      <div class="{{c}}__tags">
+    {% if include.project.tags.size >= 1 %}
+      <div class="{{c}}__tags-box">
         {% for tag in include.project.tags %}
-          <span class="{{c}}__tag">{{ tag }}</span>
+        <a href="{{ site.baseurl }}/tag-project/{{ tag | downcase }}" class="{{c}}__tag">{{ tag }}</a>
         {% endfor %}
       </div>
       {% endif %}
-    </div>
-
-    <!-- HOVER OVERLAY -->
-    <div class="{{c}}__overlay">
-      {% if include.project.subtitle %}
-      <div class="{{c}}__subtitle">{{ include.project.subtitle }}</div>
-      {% endif %}
-    </div>
 
   </div>
+
 </article>

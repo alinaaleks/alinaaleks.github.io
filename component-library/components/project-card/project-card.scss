@@ -1,188 +1,158 @@
-.c-project-card { $c: &;
-	margin-bottom: 20px;
-	transition: transform .2s ease;
+.c-project-card {
+  margin-bottom: 20px;
 
-	&:hover {
-		// #{$c}__title, 
-		// #{$c}__subtitle {
-		// 	opacity: 1;
-		// 	transform: translateZ(0);
-		// 	transition: transform .4s cubic-bezier(.165,.85,.45,1) .2s,opacity .4s cubic-bezier(.165,.85,.45,1) .2s;
-		// }
-		#{$c}__subtitle {
-    opacity: 1;
-    transform: translate3d(0,0,0);
-    transition: transform .4s cubic-bezier(.165,.85,.45,1) .2s,
-                opacity .4s cubic-bezier(.165,.85,.45,1) .2s;
-  }
-	}
+  /* ================= IMAGE ================= */
 
-	@media only screen and (max-width: $tablet) {
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
+  &__image {
+    position: relative;
+    display: block;
+    height: 0;
+    padding-bottom: 71.25%;
+    overflow: hidden;
+    border-radius: 16px;
+    background: $blue-gray;
 
-	&__image {
-		position: absolute;
-		display: block;
-		width: 100%;
-		height: 100%;
-		user-select: none;
-		background-color: $blue-gray;
-
-		&::before {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			z-index: 1;
-			width: 100%;
-			height: 100%;
-			transition: all .4s ease 0s;
-			opacity: 0;
-			visibility: hidden;
-			background: linear-gradient(360deg, $primary-color 0%, rgba($secondary-color, 0.3) 120.95%);
-		}
-
-		img {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			border-radius: 16px;
-			background-color: $blue-gray;
-			pointer-events: none;
-			transition: all .4s ease 0s;
-			will-change: transform;
-		}
-
-		&:hover {
-			&::before {
-				opacity: 1;
-				visibility: visible;
-			}
-
-			img {
-				transform: scale(1.05);
-			}
-		}
-	}
-
-	&__content {
-		position: relative;
-		display: flex;
-		width: 100%;
-		height: 100%;
-		min-height: 280px;
-		border-radius: 16px;
-		transform: translate(0);
-		box-shadow: 0px 0px 30px rgba($primary-color, 0.1);
-		overflow: hidden;
-
-		@media only screen and (max-width: $desktop) {
-			&::after {
-				padding-top: 100%;
-			}
-		}
-
-		@media only screen and (max-width: $mobile) {
-			.project__info {
-				padding: 0 32px 32px;
-			}
-		}
-
-		&::after {
-			content: "";
-			display: table;
-			padding-top: 110%;
-		}
-	}
-
-	&__info {
-		z-index: 1;
-		width: 100%;
-		margin-top: auto;
-		padding: 0 32px 36px;
-		text-align: center;
-		pointer-events: none;
-	}
-
-	&__info-wrap {
-		overflow: hidden;
-	}
-
-	&__title {
-		font-size: 28px;
-		line-height: 1.3;
-		margin-bottom: 0;
-		transform: translate3d(0,100%,0);
-	}
-
-	&__subtitle {
-		font-size: 16px;
-		line-height: 1.4;
-		opacity: 0;
-		transform: translate3d(0,-100%,0);
-
-		&:hover {
-			opacity: 0.5;
-		}
-	}
-
-	// &__title, &__subtitle {
-	// 	color: $white;
-	// 	opacity: 0;
-	// 	transition: transform .4s cubic-bezier(.165,.85,.45,1),opacity .4s cubic-bezier(.165,.85,.45,1);
-	// }
-
-	&__title {
-  color: $white;
-  opacity: 1;                // ALWAYS visible
-  transform: translate3d(0,0,0);  // no slide animation
-}
-
-&__subtitle {
-  color: $white;
-  opacity: 0;
-  transform: translate3d(0,20px,0); // start slightly below
-}
-
-&__tags {
-  margin-top: 10px;
-  pointer-events: auto; // IMPORTANT so tags can be hovered
-}
-
-&__tag {
-  position: relative;
-  z-index: 1;
-  display: inline-block;
-  padding: 6px 10px;
-  margin: 0 4px 4px 0;
-  font-size: 11px;
-  line-height: 10px;
-  font-weight: 600;
-  text-transform: capitalize;
-  border-radius: 8px;
-  overflow: hidden;
-  color: $white;
-  background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
-
-  &:hover::before {
-    opacity: 1;
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .4s ease;
+    }
   }
 
-  &::before {
-    content: "";
+  /* ================= OVERLAY ================= */
+
+  &__overlay {
     position: absolute;
     inset: 0;
-    z-index: -1;
-    opacity: 0;
-    border-radius: 8px;
-    transition: opacity .35s;
-    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 107%);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background: linear-gradient(
+      to top,
+      rgba($primary-color, 1) 0%,
+			rgba($primary-color, 0.95) 60%,
+			rgba($primary-color, 0.7) 70%,
+			rgba($primary-color, 0.55) 80%,
+			rgba($primary-color, 0.35) 90%,
+      transparent 100%
+    );
+
+    transform: translateY(100%);
+    transition: transform .35s ease;
   }
-}
+
+  /* hover only affects image area */
+  &__image:hover {
+    img {
+      // transform: scale(1.05);
+    }
+
+    .c-project-card__overlay {
+      transform: translateY(0);
+    }
+  }
+
+  /* ================= TEXT INSIDE OVERLAY ================= */
+
+  &__subtitle {
+    color: $white;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: all .35s ease;
+  }
+
+  &__date {
+    color: rgba($white, 0.85);
+    font-size: 13px;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: all .35s ease .05s;
+  }
+
+  /* appear only when overlay visible */
+  &__image:hover &__subtitle,
+  &__image:hover &__date {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ================= CONTENT BELOW IMAGE ================= */
+
+  &__content {
+    padding: 18px 4px 0;
+  }
+
+  &__title {
+    font-size: 22px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+	&__separator {
+		height: 1px;  // thickness of the line
+  	margin: 8px 0;  // spacing above and below
+  	background: linear-gradient(
+    	to right,
+    	rgba($white, 1) 0%,
+    	rgba($white, 0.6) 50%,
+    	rgba($white, 0) 100%
+  	);
+	}
+
+  &__tags {
+    margin-top: 6px;
+  }
+
+	&__tags-box {
+    display: flex;
+  }
+
+  &__tag {
+		position: relative;
+		z-index: 1;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px 4px 0;
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 8px;
+    color: $white;
+    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+
+		    &:hover {
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      border-radius: 8px;
+      will-change: transform;
+      transition: opacity 0.35s;
+      background: linear-gradient(90deg, $primary-color 0%, $secondary-color 107%);
+    }
+
+    &:last-child {
+      margin: 0 0 4px 0;
+    }
+  }
 }
