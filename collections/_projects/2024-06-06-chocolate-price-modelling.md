@@ -1,10 +1,10 @@
 ---
 date: 2024-06-06 22:00:35 -0600
 title: Chocolate Price Modelling
-subtitle: Cooking with style and with ease.
-category: [analysis]
+subtitle: "---"
 tools: [Google Sheets, Apps Script]
-tags: [Google Sheets, Apps Script, analysis]
+category: [Analysis]
+tags: [Google Sheets, Apps Script, Analysis]
 image: "/assets/projects/chocolate-price-modelling/cover.png"
 lang: en
 ref: chocolate-price-modelling

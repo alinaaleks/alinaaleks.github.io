@@ -2,9 +2,9 @@
 date: 2023-11-29 22:00:35 -0600
 title: Recipe Book Template
 subtitle: Cooking with style and with ease.
-category: [systems, DB]
 tools: [Notion, Obsidian]
-tags: [Notion, Obsidian, DB]
+category: [db]
+tags: [Notion, Obsidian, db]
 image: "/assets/projects/recipe-book-template/cover.png"
 lang: en
 ref: recipe-book-template

@@ -2,9 +2,9 @@
 date: 2025-10-10 14:00:35 +0300
 title: Схема Процесса Заключения Договора
 subtitle: Создание схемы для унификации и прозрачности процесса в компании.
-category: [logic, visuals]
-tools: [diagram]
-tags: [logic, visuals]
+tools: []
+category: [diagram, visuals]
+tags: [diagram, visuals]
 image: "/images/projects/project-2/cover-1.png"
 lang: ru
 ref: contract-process-workflow

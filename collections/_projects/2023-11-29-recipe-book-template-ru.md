@@ -2,9 +2,9 @@
 date: 2023-11-29 22:00:35 -0600
 title: Шаблон Книги Рецептов
 subtitle: "---"
-category: [systems, DB]
 tools: [Notion, Obsidian]
-tags: [Notion, Obsidian, DB]
+category: [db]
+tags: [Notion, Obsidian, db]
 image: "/assets/projects/recipe-book-template/cover.png"
 lang: ru
 ref: recipe-book-template

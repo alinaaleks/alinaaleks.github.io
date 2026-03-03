@@ -2,9 +2,9 @@
 date: 2026-02-06 14:00:35 +0300
 title: Petfood Price Analysis
 subtitle: Quick analytical overview with comparison by segments, brands, and sales channels.
+tools: [Excel, Pivot]
 category: [analysis]
-tools: [Excel, pivot]
-tags: [Excel, Python]
+tags: [Excel, Pivot, analysis]
 image: "/images/projects/project-2/cover-1.png"
 lang: en
 ref: petfood-price-analysis

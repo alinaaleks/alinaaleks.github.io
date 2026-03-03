@@ -2,9 +2,9 @@
 date: 2026-02-20 17:00:35 +0300
 title: Contracts Payments Database
 subtitle: "---"
-category: [analysis, DB, visuals]
 tools: [Excel, Power Query, SQL, Power BI]
-tags: [Excel, Power Query, SQL, Power BI]
+category: [analysis, db, visuals]
+tags: [Excel, Power Query, SQL, Power BI, db]
 image: "/images/projects/project-2/cover-1.png"
 lang: en
 ref: contracts-payments-db

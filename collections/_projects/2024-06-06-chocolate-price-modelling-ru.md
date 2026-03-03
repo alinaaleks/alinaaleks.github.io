@@ -2,9 +2,9 @@
 date: 2024-06-06 22:00:35 -0600
 title: Себестоимость шоколада
 subtitle: "---"
-category: [analysis]
 tools: [Google Sheets, Apps Script]
-tags: [Google Sheets, Apps Script, analysis]
+category: [Analysis]
+tags: [Google Sheets, Apps Script, Analysis]
 image: "/assets/projects/chocolate-price-modelling/cover.png"
 lang: ru
 ref: chocolate-price-modelling

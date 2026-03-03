@@ -2,9 +2,9 @@
 date: 2025-10-10 14:00:35 +0300
 title: Contract Process Workflow
 subtitle: Creating a diagram for standardization and transparency within the company.
-category: [logic, visuals]
-tools: [diagram]
-tags: [logic, visuals]
+tools: []
+category: [diagram, visuals]
+tags: [diagram, visuals]
 image: "/images/projects/project-2/cover-1.png"
 lang: en
 ref: contract-process-workflow

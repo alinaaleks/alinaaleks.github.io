@@ -2,8 +2,8 @@
 date: 2025-08-25 16:00:35 +0300
 title: Карта Поставщиков
 subtitle: "---"
-category: [visuals]
 tools: [Excel, AppSheet]
+category: [visuals]
 tags: [Excel, AppSheet, visuals]
 image: "/images/projects/project-2/cover-1.png"
 lang: ru

@@ -2,8 +2,8 @@
 date: 2025-05-31 23:21:35 +0300
 title: Инструмент Проверки Коммунальных Счетов
 subtitle: Инструмент для проверки коммунальных начислений
-category: [analysis, automation, tools]
 tools: [Excel]
+category: [analysis, automation]
 tags: [Excel, analysis, automation]
 image: "/images/projects/project-2/cover-1.png"
 lang: ru

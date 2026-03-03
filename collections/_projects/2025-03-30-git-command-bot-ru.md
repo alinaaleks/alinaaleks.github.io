@@ -2,9 +2,9 @@
 date: 2025-03-30 22:04:35 +0300
 title: Git Command Bot
 subtitle: Создание Telegram-бота напоминалки комманд Git.
-category: [automation, helper, tools]
-tools: [Python, API, TG-bot]
-tags: [Python, API, automation]
+tools: [Python, API]
+category: [chatbot, automation, helper]
+tags: [Python, API, chatbot, automation, helper]
 image: "/assets/projects/git-command-bot/cover.png"
 lang: ru
 ref: git-command-bot

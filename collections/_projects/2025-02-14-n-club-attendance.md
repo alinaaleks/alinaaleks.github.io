@@ -2,9 +2,9 @@
 date: 2025-02-14 02:10:00 +0300
 title: N Club Attendance
 subtitle: "---"
-category: [analysis, visual]
 tools: [Excel, Yandex DataLens]
-tags: [Excel, Yandex DataLens, analysis]
+category: [Analysis, Visuals]
+tags: [Excel, Yandex DataLens, Analysis, Visuals]
 image: "/assets/projects/n-club-attendance/cover.png"
 lang: en
 ref: n-club-attendance

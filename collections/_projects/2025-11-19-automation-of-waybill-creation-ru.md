@@ -2,8 +2,8 @@
 date: 2025-11-19 14:00:35 +0300
 title: Автоматизация создания ТТН
 subtitle: Excel-решение с использованием VBA для массового формирования накладных из единого источника данных.
-category: [automation, helper]
 tools: [Excel, VBA]
+category: [automation, helper]
 tags: [Excel, VBA, automation, helper]
 image: "/images/projects/project-2/cover-1.png"
 lang: ru
