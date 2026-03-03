@@ -43,15 +43,16 @@
 {% if include.project.tags.size >= 1 %}
   <div class="{{c}}__tags-box">
     {% for tag in include.project.tags %}
-      {% assign tag_key = tag | downcase %}
-{% assign localized_tag = site.data.tags[tag_key][current_lang] | default: tag %}
-{% assign tag_type = site.data.tags[tag_key].type | default: "category" %}
+  {% assign tag_slug = tag | slugify %}       <!-- for URL -->
+  {% assign tag_key = tag | downcase %}       <!-- for looking up in tags.yml -->
+  {% assign localized_tag = site.data.tags[tag_key][current_lang] | default: tag %}
+  {% assign tag_type = site.data.tags[tag_key].type | default: "category" %}
 
-      <a href="{% if current_lang == 'ru' %}{{ site.baseurl }}/ru/tag-project/{{ tag_key | downcase }}{% else %}{{ site.baseurl }}/tag-project/{{ tag_key | downcase }}{% endif %}"
-   class="{{c}}__tag {{c}}__tag--{{ tag_type }}">
-        {{ localized_tag }}
-      </a>
-    {% endfor %}
+  <a href="{% if current_lang == 'ru' %}{{ site.baseurl }}/ru/tag-project/{{ tag_slug }}{% else %}{{ site.baseurl }}/tag-project/{{ tag_slug }}{% endif %}"
+     class="{{c}}__tag {{c}}__tag--{{ tag_type }}">
+    {{ localized_tag }}
+  </a>
+{% endfor %}
   </div>
 {% endif %}
 

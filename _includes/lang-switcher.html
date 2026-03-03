@@ -1,17 +1,23 @@
 {% assign current_lang = page.lang | default: site.default_lang %}
 {% assign current_ref = page.ref %}
 
-{% if current_ref %}
-  {% assign all_pages = site.pages | concat: site.projects | concat: site.posts %}
+{% if current_ref contains "tag-project-" %}
+  {% assign slug = current_ref | remove: "tag-project-" %}
+  <a class="lang-switch"
+     href="{% if current_lang == 'en' %}
+              {{ '/ru/tag-project/' | append: slug | append: '/' | relative_url }}
+           {% else %}
+              {{ '/tag-project/' | append: slug | append: '/' | relative_url }}
+           {% endif %}">
+    {% if current_lang == "en" %}RU{% else %}EN{% endif %}
+  </a>
 
+{% elsif current_ref %}
+  {% assign all_pages = site.pages | concat: site.projects | concat: site.posts %}
   {% for p in all_pages %}
     {% if p.ref == current_ref and p.lang != current_lang %}
       <a class="lang-switch" href="{{ p.url | relative_url }}">
-        {% if current_lang == "en" %}
-          RU
-        {% else %}
-          EN
-        {% endif %}
+        {% if current_lang == "en" %}RU{% else %}EN{% endif %}
       </a>
     {% endif %}
   {% endfor %}

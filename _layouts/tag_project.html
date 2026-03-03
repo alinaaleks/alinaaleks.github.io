@@ -4,7 +4,7 @@ layout: default
 
 {% assign current_lang = page.lang | default: site.default_lang %}
 {% assign tag_lower = page.tag | downcase %}
-{% assign tag_display = site.data.tags[page.tag][current_lang] | default: page.tag %}
+{% assign tag_display = site.data.tags[tag_lower][current_lang] | default: page.tag %}
 {% bookshop page-heading title=tag_display %}
 
 <div class="container">
@@ -22,9 +22,9 @@ layout: default
           {% for project in projects_sorted %}
             {% if project.tags and project.lang == current_lang %}
               {% assign project_tags_lower = project.tags | join: "," | downcase | split: "," %}
-              {% if project_tags_lower contains tag_lower %}
-                {% assign filtered_projects = filtered_projects | push: project %}
-              {% endif %}
+{% if project_tags_lower contains tag_lower %}
+  {% assign filtered_projects = filtered_projects | push: project %}
+{% endif %}
             {% endif %}
           {% endfor %}
 

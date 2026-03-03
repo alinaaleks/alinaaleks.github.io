@@ -25,11 +25,12 @@ layout: default
   <div class="post-tags">
     {% for tag in page.tags %}
       {% assign tag_key = tag | downcase %}
-{% assign localized_tag = site.data.tags[tag_key][current_lang] | default: tag %}
-{% assign tag_type = site.data.tags[tag_key].type | default: "category" %}
+      {% assign tag_slug = tag_key | replace: ' ', '-' %}
+      {% assign localized_tag = site.data.tags[tag_key][current_lang] | default: tag %}
+      {% assign tag_type = site.data.tags[tag_key].type | default: "category" %}
 
-<a href="{% if current_lang == 'ru' %}{{ site.baseurl }}/ru/tag-project/{{ tag_key | downcase }}{% else %}{{ site.baseurl }}/tag-project/{{ tag_key | downcase }}{% endif %}"
-   class="post-tags__tag post-tags__tag--{{ tag_type }}">
+      <a href="{% if current_lang == 'ru' %}{{ site.baseurl }}/ru/tag-project/{{ tag_slug }}{% else %}{{ site.baseurl }}/tag-project/{{ tag_slug }}{% endif %}"
+         class="post-tags__tag post-tags__tag--{{ tag_type }}">
         {{ localized_tag }}
       </a>
     {% endfor %}
