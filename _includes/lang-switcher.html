@@ -5,7 +5,7 @@
 {% if current_ref and current_ref contains "tag-project-" %}
 
   {% assign slug = current_ref | remove: "tag-project-" %}
-  <a class="lang-switch"
+  <a class="lang-switcher"
      href="{% if current_lang == 'en' %}
               {{ '/ru/tag-project/' | append: slug | append: '/' | relative_url }}
            {% else %}
@@ -20,7 +20,7 @@
   {% assign all_pages = site.pages | concat: site.projects %}
   {% for p in all_pages %}
     {% if p.ref == current_ref and p.lang != current_lang %}
-      <a class="lang-switch" href="{{ p.url | relative_url }}">
+      <a class="lang-switcher" href="{{ p.url | relative_url }}">
         {% if current_lang == "en" %}RU{% else %}EN{% endif %}
       </a>
     {% endif %}
@@ -29,7 +29,7 @@
 {%- comment -%} 3: Blog posts + blog tag pages (fallback only) {%- endcomment -%}
 {% elsif page.collection == "posts" or page.url contains "/tag/" %}
 
-  <a class="lang-switch"
+  <a class="lang-switcher"
      href="{% if current_lang == 'en' %}
               {{ '/ru/blog/' | relative_url }}
            {% else %}

@@ -8,16 +8,52 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between; // logo left, right section right
   width: 100%;
+  gap: 1rem;
   padding: 48px $base-spacing-unit 40px;
   min-height: 80px;
 
-  @media only screen and (max-width: $desktop) {
-    align-items: baseline;
+  /* Right-side wrapper for lang-switcher + hamburger */
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem; // space between lang-switcher and hamburger
   }
 
+  /* Mobile adjustments for screens <= $desktop */
+  @media only screen and (max-width: $desktop) {
+    align-items: center;
+
+    .logo {
+      margin-right: auto; // keep logo on left
+    }
+
+    .lang-switcher {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem; // spacing inside lang-switcher itself
+    }
+  }
+
+  /* Smaller mobile padding for screens <= $mobile */
   @media only screen and (max-width: $mobile) {
     padding: 30px $base-spacing-unit;
+  }
+
+  /* Desktop layout: lang-switcher after social links */
+  @media only screen and (min-width: $desktop + 1) {
+    .lang-switcher {
+      order: 3;           // after main-nav and social links
+      margin-left: auto;   // push to right
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .nav-button {
+      order: 4;           // hamburger hidden on desktop anyway
+    }
   }
 }
 
