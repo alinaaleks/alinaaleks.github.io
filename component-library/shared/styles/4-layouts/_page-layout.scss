@@ -64,6 +64,8 @@
 
 .post-tags {
 	display: flex;
+	flex-wrap: wrap;
+  gap: 4px;
 	
 	.post-tags__tag {
 		position: relative;

@@ -113,6 +113,8 @@
 
 	&__tags-box {
     display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
   }
 
   &__tag {

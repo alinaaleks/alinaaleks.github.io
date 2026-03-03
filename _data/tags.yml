@@ -1,91 +1,106 @@
 # Tools
-Excel:
-  en: Excel
-  ru: Excel
+apps script:
+  en: Apps Script
+  ru: Apps Script
   type: tool
 
-Power Query:
-  en: Power Query
-  ru: Power Query
-  type: tool
-
-SQL:
-  en: SQL
-  ru: SQL
-  type: tool
-
-Python:
-  en: Python
-  ru: Python
-  type: tool
-
-Power BI:
-  en: Power BI
-  ru: Power BI
-  type: tool
-
-VBA:
-  en: VBA
-  ru: VBA
-  type: tool
-
-AppSheet:
-  en: AppSheet
-  ru: AppSheet
-  type: tool
-
-API:
+api:
   en: API
   ru: API
   type: tool
 
-Yandex DataLens:
-  en: Yandex DataLens
-  ru: Яндекс DataLens
+appsheet:
+  en: AppSheet
+  ru: AppSheet
   type: tool
 
-Google Sheets:
+google sheets:
   en: Google Sheets
   ru: Google Таблицы
   type: tool
 
-Notion:
+excel:
+  en: Excel
+  ru: Excel
+  type: tool
+
+notion:
   en: Notion
   ru: Notion
   type: tool
 
-Obsidian:
+obsidian:
   en: Obsidian
   ru: Obsidian
   type: tool
 
-Databases:
-  en: Databases
-  ru: Базы данных
+pivot:
+  en: Pivot
+  ru: Сводные таблицы
+  type: tool
+
+power bi:
+  en: Power BI
+  ru: Power BI
+  type: tool
+
+power query:
+  en: Power Query
+  ru: Power Query
+  type: tool
+
+python:
+  en: Python
+  ru: Python
+  type: tool
+
+sql:
+  en: SQL
+  ru: SQL
+  type: tool
+
+vba:
+  en: VBA
+  ru: VBA
+  type: tool
+
+datalens:
+  en: DataLens
+  ru: DataLens
   type: tool
 
 # Categories
-Automation:
-  en: Automation
-  ru: Автоматизация
+analysis:
+  en: analysis
+  ru: анализ
   type: category
 
-Helper:
-  en: Helper
-  ru: Помощник
+automation:
+  en: automation
+  ru: автоматизация
   type: category
 
-Logic:
-  en: Logic
-  ru: Логика
+chatbot:
+  en: chatbot
+  ru: чат-бот
   type: category
 
-Visuals:
-  en: Visuals
-  ru: Визуализация
+db:
+  en: DB
+  ru: БД
   type: category
 
-Analysis:
-  en: Analysis
-  ru: Анализ
+diagrams:
+  en: diagrams
+  ru: диаграммы
+  type: category
+
+helper:
+  en: helper
+  ru: помощник
+  type: category
+
+visuals:
+  en: visuals
+  ru: визуализация
   type: category
