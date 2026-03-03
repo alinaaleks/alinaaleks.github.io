@@ -1,7 +1,9 @@
 {% assign current_lang = page.lang | default: site.default_lang %}
 {% assign current_ref = page.ref %}
 
-{% if current_ref contains "tag-project-" %}
+{%- comment -%} 1: Project tag pages {%- endcomment -%}
+{% if current_ref and current_ref contains "tag-project-" %}
+
   {% assign slug = current_ref | remove: "tag-project-" %}
   <a class="lang-switch"
      href="{% if current_lang == 'en' %}
@@ -12,8 +14,10 @@
     {% if current_lang == "en" %}RU{% else %}EN{% endif %}
   </a>
 
+{%- comment -%} 2: Pages that have translation twins {%- endcomment -%}
 {% elsif current_ref %}
-  {% assign all_pages = site.pages | concat: site.projects | concat: site.posts %}
+
+  {% assign all_pages = site.pages | concat: site.projects %}
   {% for p in all_pages %}
     {% if p.ref == current_ref and p.lang != current_lang %}
       <a class="lang-switch" href="{{ p.url | relative_url }}">
@@ -21,4 +25,17 @@
       </a>
     {% endif %}
   {% endfor %}
+
+{%- comment -%} 3: Blog posts + blog tag pages (fallback only) {%- endcomment -%}
+{% elsif page.collection == "posts" or page.url contains "/tag/" %}
+
+  <a class="lang-switch"
+     href="{% if current_lang == 'en' %}
+              {{ '/ru/blog/' | relative_url }}
+           {% else %}
+              {{ '/blog/' | relative_url }}
+           {% endif %}">
+    {% if current_lang == "en" %}RU{% else %}EN{% endif %}
+  </a>
+
 {% endif %}
