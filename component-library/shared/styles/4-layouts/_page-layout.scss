@@ -507,51 +507,116 @@
 	}
 }
 
-/* Project Navigation */
+/* Project navigation */
 .project__navigation {
-	max-width: 780px;
-	margin: 80px auto 40px;
-	text-align: center;
+	display: flex;
+	justify-content: space-between;
 
-	@media only screen and (max-width: $tablet) {
-		margin: 60px auto 40px;
-	}
-}
+	.project__prev, .project__next {
+		display: flex;
+		align-items: center;
+		width: 49%;
+		padding: 28px;
+		margin-bottom: 20px;
+		border-radius: 16px;
+		background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+		transition: transform .2s;
 
-.project__prev {
-	&:hover {
-		color: $text-color;
+		&:hover {
+			transform: translateY(-3px);
+		}
 
-		.project__nav__title .arrow-right {
-			opacity: 1;
-			transform: translateX(3px);
+		.prev__image,
+		.next__image {
+			position: relative;
+			transform: translate(0);
+			display: block;
+			min-width: 125px;
+			height: 110px;
+			border-radius: 8px;
+			overflow: hidden;
+			box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+			background-color: $blue-gray;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.prev__image {
+			margin-right: 20px;
+		}
+		.next__image {
+			margin-left: 20px;
+		}
+
+		.project__nav {
+			display: inline-block;
+			margin-bottom: 6px;
+			font-size: 14px;
+			line-height: 1;
+			font-weight: 500;
+			color: $white;
+			opacity: 0.7;
+		}
+
+		.project__nav__title {
+			margin-bottom: 0;
+			font-size: 21px;
+			line-height: 1.4;
+			font-weight: 700;
+			color: $white;
+
+			a {
+				&:hover {
+					color: $white;
+				}
+			}
 		}
 	}
-}
 
-.project__nav__info {
-	display: inline-block;
-	margin: 0 20px 4px 0;
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 1.2;
-	text-transform: uppercase;
-}
-
-.project__nav__title {
-	margin-bottom: 20px;
-	font-size: 40px;
-	line-height: 1.2;
-
-	.arrow-right {
-		margin-left: 2px;
-		font-size: 30px;
-		opacity: 0;
-		transition: 0.2s linear;
+	.project__next {
+		text-align: right;
+		margin-left: auto;
+		justify-content: flex-end;
 	}
 
 	@media only screen and (max-width: $tablet) {
-		font-size: 36px;
+		flex-wrap: wrap;
+
+		
+		.project__prev, .project__next {
+			width: 100%;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.project__prev {
+			margin-bottom: 30px;
+		}
+
+		.next__box {
+			margin-left: auto;
+		}
+	}
+
+	@media only screen and (max-width: $mobile) {
+		margin-bottom: 0;
+
+		.project__prev, .project__next {
+			padding: 20px;
+
+			.project__nav__title {
+				font-size: 16px;
+			}
+		}
 	}
 }
 
