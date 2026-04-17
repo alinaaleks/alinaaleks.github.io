@@ -85,3 +85,7 @@ So now, I just type `git s`, `git c` (only adding a message after), `git lg` and
 ![Git Bash examples](/assets/posts/hacker-skills/git-bash-example.png){: .center width="600" height="auto"}
 
 ---
+
+Project on this topic: [Command Bot in Telegram](/project/command-bot)
+
+---
