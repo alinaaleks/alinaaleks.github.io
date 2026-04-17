@@ -54,6 +54,11 @@ python:
   ru: Python
   type: tool
 
+tbl script:
+  en: TBL script
+  ru: TBL script
+  type: tool
+
 sql:
   en: SQL
   ru: SQL
