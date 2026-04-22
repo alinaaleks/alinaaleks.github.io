@@ -54,6 +54,16 @@ python:
   ru: Python
   type: tool
 
+pdfplumber:
+  en: pdfplumber
+  ru: pdfplumber
+  type: tool
+
+pandas:
+  en: pandas
+  ru: pandas
+  type: tool
+
 tbl script:
   en: TBL script
   ru: TBL script
