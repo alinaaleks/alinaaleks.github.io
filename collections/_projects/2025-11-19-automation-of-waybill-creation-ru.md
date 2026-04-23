@@ -7,7 +7,7 @@ category: [automation, helper]
 tags: [Excel, VBA, automation, helper]
 image: "/assets/projects/waybills-creation/cover.png"
 lang: ru
-ref: waybill-creation
+ref: waybills-creation
 translated: true
 ---
 

@@ -5,9 +5,9 @@ subtitle: Excel solution using VBA for mass generation of waybills from a single
 tools: [Excel, VBA]
 category: [automation, helper]
 tags: [Excel, VBA, automation, helper]
-image: "assets/projects/waybills-creation/cover.png"
+image: "/assets/projects/waybills-creation/cover.png"
 lang: en
-ref: waybill-creation
+ref: waybills-creation
 translated: false
 ---
 
