@@ -5,9 +5,9 @@ subtitle: Инструмент для извлечения данных из PDF
 tools: [Python, pdfplumber, pandas]
 category: [automation]
 tags: [Python, pdfplumber, pandas, automation]
-image: "/assets/projects/pdf-parcer/cover.png"
+image: "/assets/projects/pdf-parser/cover.png"
 lang: ru
-ref: pdf-parcer
+ref: pdf-parser
 translated: true
 ---
 
