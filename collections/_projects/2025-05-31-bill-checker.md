@@ -1,13 +1,13 @@
 ---
 date: 2025-05-31 23:21:35 +0300
-title: Utility Verification Tool
+title: Bill Checker
 subtitle: Tool for checking utility charges
 tools: [Excel]
 category: [analysis, automation]
 tags: [Excel, analysis, automation]
-image: "/assets/projects/utility-bill-verification/cover.png"
+image: "/assets/projects/bill-checker/cover.png"
 lang: en
-ref: utility-bill-verification
+ref: bill-checker
 translated: false
 ---
 
