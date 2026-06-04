@@ -21,68 +21,7 @@
     }
   }
 
-  /* ================= OVERLAY ================= */
-
-  &__overlay {
-    position: absolute;
-    inset: 0;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
-    background: linear-gradient(
-      to top,
-      rgba($primary-color, 1) 0%,
-			rgba($primary-color, 0.95) 60%,
-			rgba($primary-color, 0.7) 70%,
-			rgba($primary-color, 0.55) 80%,
-			rgba($primary-color, 0.35) 90%,
-      transparent 100%
-    );
-
-    transform: translateY(100%);
-    transition: transform .35s ease;
-  }
-
-  /* hover only affects image area */
-  &__image:hover {
-    img {
-      // transform: scale(1.05);
-    }
-
-    .c-project-card__overlay {
-      transform: translateY(0);
-    }
-  }
-
-  /* ================= TEXT INSIDE OVERLAY ================= */
-
-  &__subtitle {
-    color: $white;
-    font-size: 15px;
-    line-height: 1.5;
-    margin-bottom: 12px;
-    opacity: 0;
-    transform: translateY(12px);
-    transition: all .35s ease;
-  }
-
-  &__date {
-    color: rgba($white, 0.85);
-    font-size: 13px;
-    opacity: 0;
-    transform: translateY(12px);
-    transition: all .35s ease .05s;
-  }
-
-  /* appear only when overlay visible */
-  &__image:hover &__subtitle,
-  &__image:hover &__date {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
+  
   /* ================= CONTENT BELOW IMAGE ================= */
 
   &__content {
@@ -101,11 +40,22 @@
   	margin: 8px 0;  // spacing above and below
   	background: linear-gradient(
     	to right,
-    	rgba($white, 1) 0%,
-    	rgba($white, 0.6) 50%,
-    	rgba($white, 0) 100%
+    	rgba($secondary-color, 1) 0%,
+    	rgba($secondary-color, 0.5) 30%,
+    	rgba($secondary-color, 0) 100%
   	);
 	}
+
+&__description {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+  &__date {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
 
   &__tags {
     margin-top: 6px;

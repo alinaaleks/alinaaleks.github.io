@@ -8,10 +8,18 @@
          src="{{ include.project.image }}"
          alt="{{ include.project.title }}">
 
-    <div class="{{c}}__overlay">
+  </a>
+
+  <div class="{{c}}__content">
+
+<h3 class="{{c}}__title">
+  <a href="{{ include.project.url }}" class="{{c}}__title-link">
+    {{ include.project.title }}
+  </a>
+</h3>
 
       {% if include.project.subtitle %}
-        <div class="{{c}}__subtitle">
+        <div class="{{c}}__description">
           {{ include.project.subtitle }}
         </div>
       {% endif %}
@@ -27,18 +35,6 @@
           {{ months[month_index] }} {{ year }}
         </div>
       {% endif %}
-
-    </div>
-
-  </a>
-
-  <div class="{{c}}__content">
-
-<h3 class="{{c}}__title">
-  <a href="{{ include.project.url }}" class="{{c}}__title-link">
-    {{ include.project.title }}
-  </a>
-</h3>
 
 {% if include.project.tags.size >= 1 %}
   <div class="{{c}}__tags-box">
