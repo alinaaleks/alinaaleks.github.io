@@ -10,12 +10,14 @@ $blue-gray: #d5dce3;
 $background-color: #fdfdff;
 $background-color-alt: $white;
 
-$text-color: $dark;
+$text-color: #1A1A1A;
+$text-color-muted: #6B7280; // gray-500
+$text-color-soft: #9CA3AF;  // gray-400
 
 $heading-font-color: $text-color;
 
-$link-color: $text-color;
-$link-color-hover: $text-color;
+$link-color: $dark;
+$link-color-hover: $primary-color;
 
 $button-color: $background-color-alt;
 $button-background-color: $primary-color;

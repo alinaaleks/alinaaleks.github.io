@@ -1,10 +1,19 @@
 ---
 #-------------------------------
 # Social Links
-# Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
-# Other icons can be found at https://ionicons.com/v4/
 social:
-  #  - { icon: "Twitter", link: "https://twitter.com" }
-  - { icon: "Github", link: "https://github.com/alinaaleks" }
-  - { icon: "Linkedin", link: "https://linkedin.com/in/alinaaleks" }
-  - { icon: "Telegram", link: "https://t.me/alinaalekss" }
+  - name: Github
+    icon: logo-github
+    link: https://github.com/alinaaleks
+
+  - name: Linkedin
+    icon: logo-linkedin
+    link: https://linkedin.com/in/alinaaleks
+
+  - name: Telegram
+    icon: paper-plane
+    link: https://t.me/alinaalekss
+
+  - name: Max
+    icon: chatbubble
+    link: https://max.ru/u/f9LHodD0cOLrfbQC-DsKA4nOYgV-u67sdhRTfuPrmdpL2sgvFQK4E42h164

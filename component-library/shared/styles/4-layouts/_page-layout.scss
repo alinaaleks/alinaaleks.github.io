@@ -285,32 +285,28 @@
 	}
 
 	.share__link {
-		display: block;
-		width: 44px;
-		height: 44px;
-		line-height: 44px;
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
 		border-radius: 50%;
 		font-size: 16px;
 		border: none;
 		color: $background-color-alt;
 		box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.07);
 
-		&.share__facebook,
-		&.share__twitter,
+		transition: all 0.25s ease;
+
+		&.share__max,
 		&.share__linkedin,
-		&.share__pinterest,
 		&.share__whatsapp,
 		&.share__telegram {
 			background: $background-color-alt;
 
 			&:hover {
 				color: $white;
-			}
-		}
-		&.share__facebook {
-			color: #3b5998;
-			&:hover {
-				background: #3b5998;
 			}
 		}
 		&.share__whatsapp {
@@ -325,22 +321,16 @@
 				background: #0088cc;
 			}
 		}
-		&.share__twitter {
-			color: #55acee;
-			&:hover {
-				background: #55acee;
-			}
-		}
 		&.share__linkedin {
 			color: #0077b5;
 			&:hover {
 				background: #0077b5;
 			}
 		}
-		&.share__pinterest {
-			color: #bd081c;
+		&.share__max {
+			color: #3E3BCC;
 			&:hover {
-				background: #bd081c;
+				background: #3E3BCC;
 			}
 		}
 	}
