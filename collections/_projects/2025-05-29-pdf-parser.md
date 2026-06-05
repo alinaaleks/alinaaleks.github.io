@@ -5,7 +5,7 @@ subtitle: Tool for extracting data from PDF to Excel.
 tools: [Python, pdfplumber, pandas]
 category: [automation]
 tags: [Python, pdfplumber, pandas, automation]
-image: "/assets/projects/pdf-parser/cover-2.png"
+image: "/assets/projects/pdf-parser/cover.png"
 lang: en
 ref: pdf-parser
 translated: false
