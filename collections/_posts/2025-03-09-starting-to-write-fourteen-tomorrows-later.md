@@ -3,7 +3,7 @@ date: 2025-03-09 07:00:00 +3000
 title: Starting to Write — 14 Tomorrows Later
 description: >-
   On finally putting my thoughts into words &mdash; and how Elvis makes me believe in endless possibilities.
-tags: [writing, singing]
+tags: [writing, musings]
 image: /assets/posts/starting-to-write/cover.png
 ---
 

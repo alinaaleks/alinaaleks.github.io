@@ -2,7 +2,7 @@
 date: 2025-04-23 23:19:00 +0300
 title: "SQL Memos: Order, Joins, Logical Operators"
 description: "Basic SQL references I keep coming to again and again."
-tags: [SQL, memos]
+tags: [SQL, quick-ref]
 image: "/assets/posts/sql-memos/cover.png"
 ---
 

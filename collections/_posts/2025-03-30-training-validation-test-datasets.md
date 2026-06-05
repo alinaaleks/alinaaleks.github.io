@@ -2,7 +2,7 @@
 date: 2025-03-30 20:22:00 +0300
 title: "Training, Validation, Test Datasets"
 description: "Exploring how data is split for building the model."
-tags: [ML, data, memos]
+tags: [ML, data, quick-ref]
 image: "/assets/posts/training-validation-test/cover.png"
 ---
 

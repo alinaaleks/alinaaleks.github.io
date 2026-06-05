@@ -119,3 +119,48 @@ visuals:
   en: visuals
   ru: визуализация
   type: category
+
+# Posts
+planning:
+  en: planning
+  ru: планы
+
+quick-ref:
+  en: quick-ref
+  ru: памятки
+
+writing:
+  en: writing
+  ru: письмо
+
+data:
+  en: data
+  ru: данные
+
+web-dev:
+  en: web-dev
+  ru: веб-разработка
+
+ml:
+  en: ML
+  ru: машинное-обучение
+
+sql:
+  en: SQL
+  ru: SQL
+
+python:
+  en: Python
+  ru: Python
+
+musings:
+  en: musings
+  ru: размышления
+
+ai:
+  en: AI
+  ru: ИИ
+
+math:
+  en: Math
+  ru: математика

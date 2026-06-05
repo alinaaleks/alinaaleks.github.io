@@ -2,7 +2,7 @@
 date: 2026-02-16 12:00:00 +3000
 title: "Hacker Skills: Using Your Keyboard More Efficiently"
 description: "Going beyond Ctrl-C and Ctrl-V to make daily work faster."
-tags: [memos]
+tags: [quick-ref]
 image: /assets/posts/hacker-skills/cover.png
 ---
 

@@ -2,7 +2,7 @@
 date: 2025-03-18 11:19:00 +0300
 title: "GitHub Pages & Jekyll: How My Website Came to Be"
 description: "This combo is 'Best for You', ChatGPT said. I decided to try &mdash; and now you're reading these words on that very setup."
-tags: [website]
+tags: [web-dev]
 image: "/assets/posts/github-pages-jekyll/cover.jpg"
 ---
 
