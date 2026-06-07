@@ -5,7 +5,7 @@ subtitle: Excel-решение с использованием макросов 
 tools: [Excel, VBA]
 category: [automation]
 tags: [Excel, VBA, automation]
-image: "/assets/projects/waybills-creation/cover.png"
+image: "/assets/projects/waybills-creation/cover-2.png"
 lang: ru
 ref: waybills-creation
 translated: true
