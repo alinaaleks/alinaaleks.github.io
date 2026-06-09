@@ -1,11 +1,11 @@
 ---
 date: 2025-11-19 14:00:35 +0300
 title: Автоматизация создания накладных
-subtitle: Excel-решение с использованием макросов для автоматического создания накладных из единого источника данных.
+subtitle: Excel-решение с использованием макросов для автоматического создания n-количества накладных.
 tools: [Excel, VBA]
 category: [automation]
 tags: [Excel, VBA, automation]
-image: "/assets/projects/waybills-creation/cover-2.png"
+image: "/assets/projects/waybills-creation/cover.png"
 lang: ru
 ref: waybills-creation
 translated: true
