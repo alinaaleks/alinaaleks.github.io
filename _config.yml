@@ -35,12 +35,12 @@ collections:
     permalink: /:title/
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /project/:title/
   testimonials:
     output: false
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /blog/:title/
 
 # Default layout for content
 defaults:
