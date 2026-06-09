@@ -1,4 +1,4 @@
-p---
+---
 date: 2025-03-30 22:04:35 +0300
 title: Command Bot
 subtitle: Telegram-бот - напоминалка комманд и горячих клавиш.
@@ -9,7 +9,6 @@ image: "/assets/projects/command-bot/cover.png"
 lang: ru
 ref: command-bot
 translated: true
-
 ---
 
 ### Что это?
