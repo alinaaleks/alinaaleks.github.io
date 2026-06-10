@@ -101,8 +101,6 @@ translated: true
 
 <div class="end-comment">
   <p class="remove-space-below"><a href="/assets/projects/waybills-creation/waybills-demo.xlsm" target="_blank">[скачать файл Excel]</a></p>
-</div>
-<div class="end-comment">
   <p class="remove-space-below"><a href="https://github.com/alinaaleks/automations/tree/main/waybills-creation" target="_blank">[ссылка на репозиторий проекта]</a></p>
 </div>
 
