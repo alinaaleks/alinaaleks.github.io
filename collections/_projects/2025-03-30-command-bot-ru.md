@@ -79,7 +79,7 @@ translated: true
 3. Выбор категории.
 4. В каждой категории команды выпадают списком.
 
-![Логика Создания Бота](/assets/projects/command-bot/bot-work-logic.png){: width="400" height="auto"}
+![Логика Работы Бота](/assets/projects/command-bot/bot-work-logic.png){: width="400" height="auto"}
 
 #### Сбор и подготовка данных
 
