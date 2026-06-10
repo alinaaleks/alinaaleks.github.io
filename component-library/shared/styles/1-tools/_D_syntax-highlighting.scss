@@ -120,3 +120,12 @@ p code, li code, span code {
   font-size: .9em;
   color: $text-color;
 }
+
+.image-container {
+  margin: 0;
+  line-height: 0;
+}
+
+.image-container img {
+  display: block;
+}
