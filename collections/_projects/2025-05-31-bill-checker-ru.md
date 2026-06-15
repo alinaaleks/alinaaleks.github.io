@@ -3,8 +3,8 @@ date: 2025-05-31 23:21:35 +0300
 title: Проверка коммунальных начислений
 subtitle: Excel-инструмент для сверки объемов, тарифов и итоговых сумм по квитанциям. С которым я неожиданно обнаружила, что переплачиваю за горячую воду.
 tools: [Excel]
-category: [analysis, automation]
-tags: [Excel, analysis, automation]
+category: [finance, automation]
+tags: [Excel, finance, automation]
 image: "/assets/projects/bill-checker/cover.png"
 lang: ru
 ref: bill-checker

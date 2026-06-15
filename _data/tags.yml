@@ -49,7 +49,7 @@ power query:
   ru: Power Query
   type: tool
 
-python:
+tool-python:
   en: Python
   ru: Python
   type: tool
@@ -74,7 +74,7 @@ tbl script:
   ru: TBL script
   type: tool
 
-sql:
+tool-sql:
   en: SQL
   ru: SQL
   type: tool
@@ -119,6 +119,11 @@ db:
 etl:
   en: ETL
   ru: ETL
+  type: category
+
+finance:
+  en: finance
+  ru: финансы
   type: category
 
 helper:

@@ -2,9 +2,9 @@
 date: 2025-05-29 00:59:35 +0300
 title: PDF-parser
 subtitle: Tool for extracting data from PDF bills to Excel.
-tools: [Python, pdfplumber, pandas]
+tools: [tool-Python, pdfplumber, pandas]
 category: [automation]
-tags: [Python, pdfplumber, pandas, automation]
+tags: [tool-Python, pdfplumber, pandas, automation]
 image: "/assets/projects/pdf-parser/cover.png"
 lang: en
 ref: pdf-parser

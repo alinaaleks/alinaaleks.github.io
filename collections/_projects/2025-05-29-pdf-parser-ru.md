@@ -2,9 +2,9 @@
 date: 2025-05-29 00:59:35 +0300
 title: PDF-парсер
 subtitle: Программа для извлечения данных из PDF-квитанций в Excel.
-tools: [Python, pdfplumber, pandas]
+tools: [tool-Python, pdfplumber, pandas]
 category: [automation]
-tags: [Python, pdfplumber, pandas, automation]
+tags: [tool-Python, pdfplumber, pandas, automation]
 image: "/assets/projects/pdf-parser/cover.png"
 lang: ru
 ref: pdf-parser
