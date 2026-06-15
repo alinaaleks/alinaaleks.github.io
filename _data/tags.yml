@@ -64,6 +64,11 @@ pandas:
   ru: pandas
   type: tool
 
+tableau:
+  en: Tableau
+  ru: Tableau
+  type: tool
+
 tbl script:
   en: TBL script
   ru: TBL script
@@ -85,14 +90,15 @@ datalens:
   type: tool
 
 # Categories
-analysis:
-  en: analysis
-  ru: анализ
-  type: category
 
 automation:
   en: automation
   ru: автоматизация
+  type: category
+
+bi-analytics:
+  en: BI-analytics
+  ru: BI-аналитика
   type: category
 
 chatbot:
@@ -100,14 +106,19 @@ chatbot:
   ru: чат-бот
   type: category
 
+dashboard:
+  en: dashboard
+  ru: dashboard
+  type: category
+
 db:
   en: DB
   ru: БД
   type: category
 
-diagrams:
-  en: diagrams
-  ru: диаграммы
+etl:
+  en: ETL
+  ru: ETL
   type: category
 
 helper:
@@ -115,8 +126,8 @@ helper:
   ru: помощник
   type: category
 
-visuals:
-  en: visuals
+data-viz:
+  en: data-viz
   ru: визуализация
   type: category
 
