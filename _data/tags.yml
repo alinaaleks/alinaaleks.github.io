@@ -136,47 +136,47 @@ data-viz:
   ru: визуализация
   type: category
 
-# Posts
-planning:
-  en: planning
-  ru: планы
-
-quick-ref:
-  en: quick-ref
-  ru: памятки
-
-writing:
-  en: writing
-  ru: письмо
+# POSTS
+ai:
+  en: AI
+  ru: ИИ
 
 data:
   en: data
   ru: данные
 
-web-dev:
-  en: web-dev
-  ru: веб-разработка
+math:
+  en: Math
+  ru: математика
 
 ml:
   en: ML
   ru: машинное-обучение
 
-sql:
-  en: SQL
-  ru: SQL
+musings:
+  en: musings
+  ru: размышления
+
+planning:
+  en: planning
+  ru: планы
 
 python:
   en: Python
   ru: Python
 
-musings:
-  en: musings
-  ru: размышления
+quick-ref:
+  en: quick-ref
+  ru: памятки
 
-ai:
-  en: AI
-  ru: ИИ
+sql:
+  en: SQL
+  ru: SQL
 
-math:
-  en: Math
-  ru: математика
+web-dev:
+  en: web-dev
+  ru: веб-разработка
+
+writing:
+  en: writing
+  ru: письмо
