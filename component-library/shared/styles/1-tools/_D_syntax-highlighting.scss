@@ -190,6 +190,9 @@ p code, li code, span code {
 .label {
   font-size: 0.9rem;
   line-height: 1.3;
+
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .timeline-wrapper {
