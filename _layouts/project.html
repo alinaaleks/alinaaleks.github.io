@@ -56,12 +56,20 @@ layout: default
 </div>
 {% endif %}
 
-<!-- PROJECT CONTENT -->
+<!-- begin project -->
 <div class="container animate">
-  {{ content }}
-</div>
 
-{% include share.html %}
+  <article class="post">
+
+    <div class="post__content">
+      {{ content }}
+    </div>
+
+    {% include share.html %}
+
+  </article>
+</div>
+<!-- end project -->
 
 <!-- PROJECT NAVIGATION -->
 <div class="container">
