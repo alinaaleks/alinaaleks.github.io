@@ -131,8 +131,8 @@ translated: true
 ### Файлы
 
 <div class="end-comment">
-  <p class="remove-space-below"><a href="/assets/projects/waybills-creation/waybills-demo.xlsm" target="_blank">[ → скачать файл Excel]</a></p>
-  <p class="remove-space-below"><a href="https://github.com/alinaaleks/automations/tree/main/waybills-creation" target="_blank">[ → ссылка на репозиторий Github]</a></p>
+  <p class="remove-space-below"><a href="/assets/projects/waybills-creation/waybills-demo.xlsm" target="_blank">→ Файл Excel</a></p>
+  <p class="remove-space-below"><a href="https://github.com/alinaaleks/automations/tree/main/waybills-creation" target="_blank">→ Репозиторий проекта на Github</a></p>
 </div>
 
 ---

@@ -131,9 +131,9 @@ Telebothost - это решение #2.
 ### Файлы
 
 <div class="end-comment">
-  <p class="remove-space-below"><a href="https://t.me/TypeRunBot" target="_blank">[ → ссылка на бот в Telegram]</a></p>
-  <p class="remove-space-below"><a href="https://github.com/alinaaleks/command-bot" target="_blank">[ → ссылка на репозиторий Github]</a></p>
-  <p class="remove-space-below"><a href="https://console.telebothost.com/" target="_blank">[ → ссылка на Telebothost]</a></p>
+  <p class="remove-space-below"><a href="https://t.me/TypeRunBot" target="_blank">→ Бот в Telegram</a></p>
+  <p class="remove-space-below"><a href="https://github.com/alinaaleks/command-bot" target="_blank">→ Репозиторий проекта на Github</a></p>
+  <p class="remove-space-below"><a href="https://console.telebothost.com/" target="_blank">→ Платформа Telebothost</a></p>
 </div>
 
 ---

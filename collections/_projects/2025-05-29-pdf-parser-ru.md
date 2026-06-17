@@ -27,7 +27,7 @@ translated: true
 
 ### Задача
 
-1. У меня есть [файл для проверки квитанций за коммунальные услуги](/project/bill-checker-ru) - правильно ли мне начисляют суммы.
+1. У меня есть файл для проверки квитанций за коммунальные услуги [([1] - в файлах ниже)](#файлы) - правильно ли мне начисляют суммы.
 
 2. Для этого из каждой квитанции мне нужны одинаковые данные: объем потребления, тариф, сумма. НО: **все квитанции приходят от разных компаний и имеют разный формат.**
 
@@ -118,8 +118,8 @@ Spoiler: Python.
 ### Файлы
 
 <div class="end-comment">
-  <p class="remove-space-below"><a href="https://github.com/alinaaleks/automations/tree/main/pdf-bill-parser" target="_blank">[ → ссылка на репозиторий Github]</a></p>
-  <p class="remove-space-below"><a href="/project/bill-checker-ru" target="_blank">[ → ссылка на сам инструмент проверки квитанций]</a></p>
+  <p class="remove-space-below"><a href="https://github.com/alinaaleks/automations/tree/main/pdf-bill-parser" target="_blank">→ Репозиторий проекта на Github</a></p>
+  <p class="remove-space-below"><a href="/project/bill-checker-ru" target="_blank">→ [1] Инструмент проверки квитанций</a></p>
 </div>
 
 ---
