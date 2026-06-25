@@ -14,6 +14,11 @@ appsheet:
   ru: AppSheet
   type: tool
 
+flowchart:
+  en: Flowchart
+  ru: Блок-схема
+  type: tool
+
 google sheets:
   en: Google Sheets
   ru: Google Таблицы
@@ -111,6 +116,11 @@ dashboard:
   ru: dashboard
   type: category
 
+data-viz:
+  en: data-viz
+  ru: визуализация
+  type: category
+
 db:
   en: DB
   ru: БД
@@ -131,9 +141,9 @@ helper:
   ru: помощник
   type: category
 
-data-viz:
-  en: data-viz
-  ru: визуализация
+process:
+  en: process
+  ru: бизнес-процесс
   type: category
 
 # POSTS
