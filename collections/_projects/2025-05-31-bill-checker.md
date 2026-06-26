@@ -5,7 +5,7 @@ subtitle: An Excel tool for cross-checking usage, tariffs, and billing accuracy.
 tools: [Excel]
 category: [analysis, automation]
 tags: [Excel, analysis, automation]
-image: "/assets/projects/bill-checker/cover.png"
+image: "/assets/projects/bill-checker/cover.webp"
 lang: en
 ref: bill-checker
 translated: false

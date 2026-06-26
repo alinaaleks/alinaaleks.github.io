@@ -5,7 +5,7 @@ subtitle: Схема заключения и исполнения договор
 tools: [flowchart]
 category: [process]
 tags: [flowchart, process]
-image: "/assets/projects/ctr-process-flow/cover.png"
+image: "/assets/projects/ctr-process-flow/cover.webp"
 lang: ru
 ref: ctr-process-workflow
 translated: true
@@ -15,9 +15,9 @@ translated: true
 
 Эта схема — разбор полного цикла работы с договором закупки в компании: от первичного согласования условий до финального акта сверки.
 
-<video autoplay loop muted playsinline style="width: 800px; height: auto;">
-  <source src="/assets/projects/ctr-process-flow/ctr-process-flow.mp4" type="video/mp4">
-</video>
+<div class="flow-wrapper">
+  <img src="/assets/projects/ctr-process-flow/ctr-process-flowchart-part.webp" class="flowchart">
+</div>
 <p></p>
 
 ### Проблема
@@ -45,7 +45,7 @@ translated: true
 
 3 - Пронумеровать шаги, чтобы по каждому договору легче было фиксировать текущий статус.
 
-![Блок схема - Процесс заключения и исполнения договора закупки](/assets/projects/ctr-process-flow/ctr-process-flowchart-with-numbers.png){: width="800" height="auto"}
+![Блок схема - Процесс заключения и исполнения договора закупки](/assets/projects/ctr-process-flow/ctr-process-flowchart-with-numbers.webp){: width="800" height="auto"}
 
 ### Результат
 

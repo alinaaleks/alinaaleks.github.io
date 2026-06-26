@@ -5,7 +5,7 @@ subtitle: Creating a diagram for standardization and transparency within the com
 tools: [flowchart]
 category: [process]
 tags: [flowchart, process]
-image: "/assets/projects/ctr-process-flow/cover.png"
+image: "/assets/projects/ctr-process-flow/cover.webp"
 lang: en
 ref: ctr-process-workflow
 ---
@@ -14,9 +14,9 @@ ref: ctr-process-workflow
 
 This diagram represents a full lifecycle of a purchasing contract within a company: from initial agreement on terms to final reconciliation and closure.
 
-<video autoplay loop muted playsinline style="width: 800px; height: auto;">
-  <source src="/assets/projects/ctr-process-flow/ctr-process-flow.mp4" type="video/mp4">
-</video>
+<div class="flow-wrapper">
+  <img src="/assets/projects/ctr-process-flow/ctr-process-flowchart-part.webp" class="flowchart">
+</div>
 <p></p>
 
 ### Problem
@@ -45,7 +45,7 @@ Understand how the process actually works in practice in order to improve transp
 
 3 - Numbering process steps to make it easier to track the current status of each contract.
 
-![Flowchart - Purchasing Contract Execution Process](/assets/projects/ctr-process-flow/ctr-process-flowchart-with-numbers.png){: width="800" height="auto"}
+![Flowchart - Purchasing Contract Execution Process](/assets/projects/ctr-process-flow/ctr-process-flowchart-with-numbers.webp){: width="800" height="auto"}
 
 ### Result
 

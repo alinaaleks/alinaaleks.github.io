@@ -3,7 +3,7 @@ date: 2025-03-18 11:19:00 +0300
 title: "GitHub Pages & Jekyll: How My Website Came to Be"
 description: "This combo is 'Best for You', ChatGPT said. I decided to try &mdash; and now you're reading these words on that very setup."
 tags: [web-dev]
-image: "/assets/posts/github-pages-jekyll/cover.jpg"
+image: "/assets/posts/github-pages-jekyll/cover.webp"
 ---
 
 I just want to perpetuate this. It feels so great to have your own website. We (can’t say 'I', because ChatGPT is my mighty companion) deployed it just now and I am very happy.
@@ -72,7 +72,7 @@ So,
 
 ![Website is not working](/assets/posts/github-pages-jekyll/website-is-not-working.png){: .center width="568" height=auto}
 
-![Deployment failure](/assets/posts/github-pages-jekyll/deployment-failure.png){: .center width="1040" height=auto}
+![Deployment failure](/assets/posts/github-pages-jekyll/deployment-failure.webp){: .center width="1040" height=auto}
 
 <p class="notation">wah-wah-wah-waaah.</p>
 And the treacherous _“what if it won’t work EVER?!”_ crept in...

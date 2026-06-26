@@ -5,7 +5,7 @@ subtitle: Telegram-бот для быстрого доступа к команд
 tools: [TBL script, API]
 category: [chatbot, helper]
 tags: [TBL script, API, chatbot, helper]
-image: "/assets/projects/command-bot/cover.png"
+image: "/assets/projects/command-bot/cover.webp"
 lang: ru
 ref: command-bot
 translated: true
@@ -17,13 +17,9 @@ translated: true
 
 **Напоминалка.** Позволяет быстро "вспоминать" нужные команды прямо в Telegram через заранее заданную структуру.
 
-<div class="image-container">
-  <img 
-    src="/assets/projects/command-bot/run-bot-demo.gif" 
-    alt="Иллюстрация работы Бота" 
-    width="600" 
-    height="auto">
-</div>
+<video autoplay loop muted playsinline>
+  <source src="/assets/projects/command-bot/run-bot-demo.mp4" type="video/mp4">
+</video>
 
 <p class="notation-s">Иллюстрация работы Бота</p>
 
@@ -49,13 +45,9 @@ translated: true
 <p class="remove-space-below">Реализация через Telebothost*.</p>
 <p class="notation-s">*хостинг-платформа специально для Telegram-ботов</p>
 
-<div class="image-container">
-  <img 
-    src="/assets/projects/command-bot/bot-usage-example.gif" 
-    alt="Пример использования Бота" 
-    width="600" 
-    height="auto">
-</div>
+<video autoplay loop muted playsinline>
+  <source src="/assets/projects/command-bot/bot-usage-example.mp4" type="video/mp4">
+</video>
 
 <p class="notation-s">Пример использования Бота: вспомнить команду для работы над сайтом, чтобы видеть изменения в реальном времени</p>
 
@@ -68,7 +60,7 @@ translated: true
 
 ### Как это работает
 
-![Логика Создания Бота](/assets/projects/command-bot/bot-creation-logic.png){: width="300" height="auto"}
+![Логика Создания Бота](/assets/projects/command-bot/bot-creation-logic.webp){: width="400" height="auto"}
 
 Бот регистрируется в Telegram → На платформе Telebothost вносится информация о нем и создается его структура.
 
@@ -79,7 +71,7 @@ translated: true
 3. Выбор категории.
 4. В каждой категории команды выпадают списком.
 
-![Логика Работы Бота](/assets/projects/command-bot/bot-work-logic.png){: width="400" height="auto"}
+![Логика Работы Бота](/assets/projects/command-bot/bot-work-logic.webp){: width="500" height="auto"}
 
 #### Сбор и подготовка данных
 

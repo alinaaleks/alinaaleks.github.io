@@ -3,7 +3,7 @@ date: 2025-05-17 22:22:00 +0300
 title: "A Story Told Over Tea (with Python)"
 description: "A tale of app migrations, meaning, and automations."
 tags: [Python, musings]
-image: "/assets/posts/a-story-told-over-tea/cover.jpg"
+image: "/assets/posts/a-story-told-over-tea/cover.webp"
 ---
 
 Today I’m wrapped in my cozy robe, sipping hibiscus tea, and about to dive into the past.  
@@ -51,7 +51,7 @@ Right now, I’m exploring Obsidian as a new promising path. I’m discovering t
 
 I think **I needed to write all this to honor the _long-long road_ I’ve walked in order to appreciate the _new road_ filled with more efficiency.** New era of migration! Yesterday, I was _blown away_ by the efficiency of a simple automation.
 
-I worked with my recipe book. [1 - link below, my recipe book template]
+I worked with my recipe book.
 
 And with just a few lines of Python, I turned my CSV file into `.md` recipe cards for Obsidian. What previously was **a row in airtable became an `.md` in Obsidian**, with unified lines of code for template record.
 
@@ -65,7 +65,7 @@ Yes, I also had to understand the code, test it, tweak it — but the whole proc
 
 Watching those lines — `Downloading image.jpg` — appear, one by one...
 
-![Printed message in Jupyter Notebook that Images were Downloaded](/assets/posts/a-story-told-over-tea/jupyter-imgs-downloaded.png){: .center width="600" height="auto"}
+![Printed message in Jupyter Notebook that Images were Downloaded](/assets/posts/a-story-told-over-tea/jupyter-imgs-downloaded.webp){: .center width="600" height="auto"}
 
 ...was such a pleasure to experience!
 
@@ -74,17 +74,12 @@ Watching those lines — `Downloading image.jpg` — appear, one by one...
 ## The Next Cup of Tea
 
 I think of refining this script and mapping it out as a mini-project.
-I imagine I might be coming back to it more than once. [2]
-
-<div class="end-comment">
-  <p class="remove-space-below"><a href="/project/recipe-book-template" target="_blank">[1] Recipe Book Template</a></p>
-  <p class="remove-space-below"><a href="/project/image-downloader" target="_blank">[2] Image Downloader with Python</a></p>
-</div>
+I imagine I might be coming back to it more than once.
 
 ---
 
 Thank you for a warm chat.
 
-![Thank you note in a cup](/assets/posts/a-story-told-over-tea/thank-you-note.jpg){: .center width="500" height="auto"}
+![Thank you note in a cup](/assets/posts/a-story-told-over-tea/thank-you-note.webp){: .center width="600" height="auto"}
 
 ---

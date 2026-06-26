@@ -5,7 +5,7 @@ subtitle: Tool for extracting data from PDF bills to Excel.
 tools: [tool-Python, pdfplumber, pandas]
 category: [automation]
 tags: [tool-Python, pdfplumber, pandas, automation]
-image: "/assets/projects/pdf-parser/cover.png"
+image: "/assets/projects/pdf-parser/cover.webp"
 lang: en
 ref: pdf-parser
 translated: false

@@ -3,7 +3,7 @@ date: 2025-03-16 23:59:59 +0300
 title: Data Science Begins
 description: and Github awaits.
 tags: [data]
-image: "/assets/posts/ds-begins/cover.jpg"
+image: "/assets/posts/ds-begins/cover.webp"
 ---
 
 They say **you will truly excel in something you feel you can do forever** — or for free.

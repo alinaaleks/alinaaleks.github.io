@@ -3,7 +3,7 @@ date: 2026-06-05 09:00:00 +3000
 title: "The Power of MVP"
 description: "Breaking the perfectionism loop by shipping imperfect work."
 tags: [MVP, musings]
-image: /assets/posts/the-power-of-mvp/cover.png
+image: /assets/posts/the-power-of-mvp/cover.webp
 ---
 
 I tend to go big, make it perfect. Planning and creating a big picture with all the details takes so much energy that there's little left for execution.
@@ -53,7 +53,7 @@ Good systems need time. Active time.
 
 I see the process like this now:
 
-![MVP cycle](/assets/posts/the-power-of-mvp/out-of-perfectionism-cycle.png){: .center width="400" height="auto"}
+![MVP cycle](/assets/posts/the-power-of-mvp/out-of-perfectionism-cycle.webp){: .center width="400" height="auto"}
 
 <p class="notation-s"> This is how I finally started working on my projects: I listed everything I wanted to build → highlighted the most ready and useful ones → picked the first → made it workable → published it → kept using it (+collected feedback) → improved it (now it lives in a refinement cycle). </p>
 

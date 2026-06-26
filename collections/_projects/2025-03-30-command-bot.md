@@ -5,7 +5,7 @@ subtitle: Telegram bot for quickly looking up commands and keyboard shortcuts.
 tools: [TBL script, API]
 category: [chatbot, helper]
 tags: [TBL script, API, chatbot, helper]
-image: "/assets/projects/command-bot/cover.png"
+image: "/assets/projects/command-bot/cover.webp"
 lang: en
 ref: command-bot
 translated: false

@@ -5,7 +5,7 @@ subtitle: Excel-решение с использованием макросов 
 tools: [Excel, VBA]
 category: [automation]
 tags: [Excel, VBA, automation]
-image: "/assets/projects/waybills-creation/cover.png"
+image: "/assets/projects/waybills-creation/cover.webp"
 lang: ru
 ref: waybills-creation
 translated: true
@@ -19,13 +19,9 @@ translated: true
 
 Он заменяет ручное создание документов автоматическим созданием шаблонов.
 
-<div class="image-container">
-  <img 
-    src="/assets/projects/waybills-creation/macro-working.gif" 
-    alt="Иллюстрация создания накладных" 
-    width="600" 
-    height="auto">
-</div>
+<video autoplay loop muted playsinline>
+  <source src="/assets/projects/waybills-creation/macro-working.mp4" type="video/mp4">
+</video>
 
 <p class="notation-s">Иллюстрация создания накладных</p>
 
@@ -61,7 +57,7 @@ translated: true
 
 ### Как это работает
 
-![Логика создания накладных](/assets/projects/waybills-creation/work-logic.png){: width="600" height="auto"}
+![Логика создания накладных](/assets/projects/waybills-creation/work-logic.webp){: width="600" height="auto"}
 
 1. **Значения.** В сводный лист вносятся данные, которые будут подставляться в шаблон.
 2. **Шаблон.** В шаблоне внесены формулы, которые эти данные подтягивают (на основе **id**).
@@ -73,13 +69,9 @@ translated: true
 
 #### Структура файла:
 
-<div class="image-container">
-  <img 
-    src="/assets/projects/waybills-creation/file-structure.gif" 
-    alt="Структура файла" 
-    width="600" 
-    height="auto">
-</div>
+<video autoplay loop muted playsinline>
+  <source src="/assets/projects/waybills-creation/file-structure.mp4" type="video/mp4">
+</video>
 
 <p class="notation-s">Структура файла</p>
 
@@ -95,13 +87,9 @@ translated: true
 
 <p><b>4-n. Готовые накладные</b> <code>ttn_№</code> - каждый документ получает имя с порядковым номером <b>id</b>.</p>
 
-<div class="image-container">
-  <img 
-    src="/assets/projects/waybills-creation/work-logic-animated.gif" 
-    alt="Автозаполнение накладной по id" 
-    width="600" 
-    height="auto">
-</div>
+<video autoplay loop muted playsinline>
+  <source src="/assets/projects/waybills-creation/work-logic-animated.mp4" type="video/mp4">
+</video>
 
 <p class="notation-s">Автозаполнение накладной по id</p>
 
