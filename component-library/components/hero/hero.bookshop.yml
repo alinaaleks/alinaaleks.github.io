@@ -25,7 +25,7 @@ blueprint:
 preview:
   title: Hi there, I am Alina
   description_html: I see the world in systems, and use data, logic, and code to understand and improve them. On my website I share thoughts and experiments from this journey.
-  image: /assets/pages/home/hero.webp
+  image: /assets/main/site-cover.webp
   image_alt: Working on a fresh air
   cta_button: Get in touch
   cta_button_link: "#contact"

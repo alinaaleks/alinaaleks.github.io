@@ -1,6 +1,6 @@
 title: Welcome
 description: "Thoughts and projects related to data and coding"
-default_image: /assets/pages/home/hero.webp
+default_image: /assets/main/site-cover.webp
 social_media_share_image: /assets/main/avatar.jpg
 disqus-identifier:
 google-analytics:
