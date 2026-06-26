@@ -18,3 +18,27 @@ body:not(.stop-animations) .animate {
 .resize-animation-stopper * {
   transition: none !important;
 }
+
+.flow-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.flowchart {
+  display: block;
+  width: 100%;
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.flow-wrapper:hover .flowchart {
+  animation-play-state: paused;
+}
