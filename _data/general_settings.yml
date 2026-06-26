@@ -1,5 +1,6 @@
 title: Welcome
-description: "Personal space for thoughts and experiments."
+description: "Thoughts and projects related to data and coding"
+default_image: /assets/pages/home/hero.jpg
 social_media_share_image: /assets/main/avatar.jpg
 disqus-identifier:
 google-analytics:
