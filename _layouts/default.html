@@ -3,11 +3,11 @@
 
 {% include head.html %}
 
-<body>
+{% if site.data.general_settings.google-analytics %}
+    {% include google-analytics.html %}
+{% endif %}
 
-    {% if site.data.general_settings.google-analytics %}
-        {% include google-analytics.html %}
-    {% endif %}
+<body>
 
     {% include header.html %}
 
