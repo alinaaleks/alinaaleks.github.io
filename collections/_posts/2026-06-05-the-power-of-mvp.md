@@ -32,7 +32,7 @@ And the effect is almost always the same: the more information I gather, the mor
 ### What changed for me
 
 This is how my projects actually appeared on this website.
-This is how my Panning system and Home Care system got off the ground.
+This is how my Planning system and Home Care system got off the ground.
 
 <p class="remove-space-below">I’m learning to live with unfinished things — with WIP mode.</p>
 
