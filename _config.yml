@@ -1,8 +1,8 @@
 # Personal details
-# title: Alina Aleks
+title: Alina Aleks
 email: toalinaaleks@gmail.com
-# description: >-
-#  "A yearlong experiment in learning, writing, and showing up."
+description: >-
+  "Проекты и мысли, связанные с данными и кодом"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://alinaaleks.github.io"
 github_username: alinaaleks
@@ -12,7 +12,7 @@ plugins:
   - jekyll-bookshop
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll/tagging
+  - jekyll-redirect-from
 
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
@@ -23,7 +23,8 @@ exclude:
   - postcss.config.js
   - node_modules
 
-# include:
+include:
+  - _redirects
 #  - _cloudcannon
 
 # Collections
@@ -32,15 +33,12 @@ collections_dir: "collections"
 collections:
   pages:
     output: true
-    permalink: /:title/
   projects:
     output: true
-    permalink: /project/:title/
   testimonials:
     output: false
   posts:
     output: true
-    permalink: /blog/:title/
 
 # Default layout for content
 defaults:
@@ -65,16 +63,14 @@ defaults:
 # SEO settings (optional)
 tag_page_dir: tag
 tag_page_layout: tag_page
-tag_permalink_style: /:title
 
 # New section for project tags
-tag_project_page_dir: tag-project
+tag_project_page_dir: pj-tag
 tag_project_page_layout: tag_project
-tag_project_permalink_style: /tag-project/:title
 
 # Languages
-Languages: ["en", "ru"]
-default_lang: "en"
+languages: ["ru", "en"]
+default_lang: "ru"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
