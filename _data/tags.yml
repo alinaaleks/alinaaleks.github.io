@@ -1,27 +1,27 @@
 # Tools
 apps script:
-  en: Apps Script
   ru: Apps Script
+  en: Apps Script
   type: tool
 
 api:
-  en: API
   ru: API
+  en: API
   type: tool
 
 appsheet:
-  en: AppSheet
   ru: AppSheet
+  en: AppSheet
   type: tool
 
 flowchart:
-  en: Flowchart
   ru: Блок-схема
+  en: Flowchart
   type: tool
 
 google sheets:
-  en: Google Sheets
   ru: Google Таблицы
+  en: Google Sheets
   type: tool
 
 excel:
@@ -30,163 +30,174 @@ excel:
   type: tool
 
 notion:
-  en: Notion
   ru: Notion
+  en: Notion
   type: tool
 
 obsidian:
-  en: Obsidian
   ru: Obsidian
+  en: Obsidian
   type: tool
 
 pivot:
-  en: Pivot
   ru: Сводные таблицы
+  en: Pivot
   type: tool
 
 power bi:
-  en: Power BI
   ru: Power BI
+  en: Power BI
   type: tool
 
 power query:
-  en: Power Query
   ru: Power Query
+  en: Power Query
   type: tool
 
 tool-python:
-  en: Python
   ru: Python
+  en: Python
   type: tool
 
 pdfplumber:
-  en: pdfplumber
   ru: pdfplumber
+  en: pdfplumber
   type: tool
 
 pandas:
-  en: pandas
   ru: pandas
+  en: pandas
   type: tool
 
 tableau:
-  en: Tableau
   ru: Tableau
+  en: Tableau
   type: tool
 
 tbl script:
-  en: TBL script
   ru: TBL script
+  en: TBL script
   type: tool
 
 tool-sql:
-  en: SQL
   ru: SQL
+  en: SQL
   type: tool
 
 vba:
-  en: VBA
   ru: VBA
+  en: VBA
   type: tool
 
 datalens:
-  en: DataLens
   ru: DataLens
+  en: DataLens
   type: tool
 
 # Categories
 
 automation:
-  en: automation
   ru: автоматизация
+  en: automation
   type: category
 
 bi-analytics:
-  en: BI-analytics
   ru: BI-аналитика
+  en: BI-analytics
   type: category
 
 chatbot:
-  en: chatbot
   ru: чат-бот
+  en: chatbot
   type: category
 
 dashboard:
-  en: dashboard
   ru: dashboard
+  en: dashboard
   type: category
 
 data-viz:
-  en: data-viz
   ru: визуализация
+  en: data-viz
   type: category
 
 db:
-  en: DB
   ru: БД
+  en: DB
   type: category
 
 etl:
-  en: ETL
   ru: ETL
+  en: ETL
   type: category
 
 finance:
-  en: finance
   ru: финансы
+  en: finance
   type: category
 
 helper:
-  en: helper
   ru: помощник
+  en: helper
   type: category
 
 process:
-  en: process
   ru: бизнес-процесс
+  en: process
   type: category
 
 # POSTS
 ai:
-  en: AI
   ru: ИИ
+  en: AI
+  type: category
 
 data:
-  en: data
   ru: данные
+  en: data
+  type: category
 
 math:
-  en: Math
   ru: математика
+  en: Math
+  type: category
 
 ml:
-  en: ML
   ru: машинное-обучение
+  en: ML
+  type: tool
 
 musings:
-  en: musings
   ru: размышления
+  en: musings
+  type: category
 
 planning:
-  en: planning
   ru: планы
+  en: planning
+  type: category
 
 python:
-  en: Python
   ru: Python
+  en: Python
+  type: tool
 
 quick-ref:
-  en: quick-ref
   ru: памятки
+  en: quick-ref
+  type: category
 
 sql:
-  en: SQL
   ru: SQL
+  en: SQL
+  type: tool
 
 web-dev:
-  en: web-dev
   ru: веб-разработка
+  en: web-dev
+  type: category
 
 writing:
-  en: writing
   ru: письмо
+  en: writing
+  type: category
