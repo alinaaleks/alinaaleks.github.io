@@ -112,7 +112,7 @@ Spoiler: Python.
 
 <div class="end-comment">
   <p class="remove-space-below"><a href="https://github.com/alinaaleks/automations/tree/main/pdf-bill-parser" target="_blank">→ Репозиторий проекта на Github</a></p>
-  <p class="remove-space-below"><a href="/project/bill-checker-ru" target="_blank">→ [1] Инструмент проверки квитанций</a></p>
+  <p class="remove-space-below"><a href="/projects/bill-checker" target="_blank">→ [1] Инструмент проверки квитанций</a></p>
 </div>
 
 ---

@@ -90,6 +90,6 @@ So now, I just type `git s`, `git c` (only adding a message after), `git lg` and
 
 ---
 
-Project on this topic: [Command Bot in Telegram](/project/command-bot)
+Project on this topic: [Command Bot in Telegram](/en/projects/command-bot)
 
 ---
