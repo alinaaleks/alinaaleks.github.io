@@ -1,0 +1,135 @@
+{% assign maxRelated = 3 %}
+{% assign minCommonTags = 1 %}
+{% assign maxRelatedCounter = 0 %}
+
+{% assign current_lang = page.lang | default: site.default_lang %}
+
+{% assign projects_sorted = site.projects | where: "lang", current_lang %}
+
+{% for project in projects_sorted %}
+  {% assign sameTagCount = 0 %}
+
+  {% for tag in project.tags %}
+    {% if project.url != page.url %}
+      {% if page.tags contains tag %}
+        {% assign sameTagCount = sameTagCount | plus: 1 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if sameTagCount >= minCommonTags %}
+    {% assign related = 'is-related' %}
+  {% endif %}
+{% endfor %}
+
+
+<!-- begin related projects -->
+<div class="container">
+  <section class="related-posts {{related}} animate">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="container__inner">
+
+          <div class="section__info">
+            <div class="section__head">
+
+              <h2 class="section__title">
+                {% if current_lang == "ru" %}
+                  Вам также может понравиться
+                {% else %}
+                  You may also like
+                {% endif %}
+              </h2>
+
+
+              {% if page.tags.size >= 1 %}
+
+                {% for tag in page.tags %}
+                  {% if forloop.index == 1 %}
+
+                    {% assign tag_key = tag | downcase %}
+                    {% assign localized_tag = site.data.tags[tag_key][current_lang] | default: tag %}
+                    {% assign tag_slug = tag | slugify %}
+
+                    <a href="{% if current_lang == 'ru' %}
+                              {{ site.baseurl }}/pj-tag/{{ tag_slug }}
+                             {% else %}
+                              {{ site.baseurl }}/en/pj-tag/{{ tag_slug }}
+                             {% endif %}"
+                       class="section__link related-tag">
+
+                      {% if current_lang == "ru" %}
+                        Смотреть все
+                      {% else %}
+                        See all
+                      {% endif %}
+
+                      <span>{{ localized_tag }}</span>
+                      <ion-icon name="arrow-forward"></ion-icon>
+
+                    </a>
+
+                  {% endif %}
+                {% endfor %}
+
+              {% endif %}
+
+            </div>
+          </div>
+
+
+          <div class="row">
+
+
+            {% assign projects_sorted = site.projects | where: "lang", current_lang %}
+
+
+            {% for project in projects_sorted %}
+
+              {% assign sameTagCount = 0 %}
+
+
+              {% for tag in project.tags %}
+
+                {% if project.url != page.url %}
+
+                  {% if page.tags contains tag %}
+
+                    {% assign sameTagCount = sameTagCount | plus: 1 %}
+
+                  {% endif %}
+
+                {% endif %}
+
+              {% endfor %}
+
+
+              {% if sameTagCount >= minCommonTags %}
+
+                {% bookshop project-card project=project %}
+
+
+                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+
+
+                {% if maxRelatedCounter >= maxRelated %}
+                  {% break %}
+                {% endif %}
+
+
+              {% endif %}
+
+
+            {% endfor %}
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
+<!-- end related projects -->
