@@ -12,3 +12,4 @@ group :jekyll_plugins do
 end
 
 gem "csv", "~> 3.3"
+gem "jekyll-redirect-from"
