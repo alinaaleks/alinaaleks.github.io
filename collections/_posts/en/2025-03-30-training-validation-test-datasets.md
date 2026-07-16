@@ -1,17 +1,13 @@
 ---
 date: 2025-03-30 20:22:00 +0300
-title: "Наборы данных - Training, Validation, Test"
+title: "Training, Validation, Test Datasets"
 description: "Exploring how data is split for building the model."
 tags: [ML, data, quick-ref]
 image: "/assets/posts/training-validation-test/cover.webp"
-lang: ru
+lang: en
 ref: training-validation-test
-permalink: /blog/training-validation-test-datasets/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/training-validation-test-datasets/
+translated: true
 ---
 
 This week I have the flu. I moved my desk closer to the bed and... blacked out, then... binge-watched a few movies 😄 , and after that...

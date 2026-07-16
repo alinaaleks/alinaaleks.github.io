@@ -4,15 +4,15 @@ ref: "footer"
 footer_menu__settings:
   menu__items:
     - title: "Главная"
-      url: "/ru/"
+      url: "/"
     - title: "Проекты"
-      url: "/ru/projects/"
+      url: "/projects/"
     - title: "Заметки"
-      url: "/ru/blog/"
+      url: "/blog/"
     - title: "Резюме"
-      url: "/ru/resume/"
+      url: "/resume/"
     - title: "Обо мне"
-      url: "/ru/about/"
+      url: "/about/"
 
 copyright_text_html: >-
   <p>2026 &copy; Alina Aleks.</p><p>Создано с использованием шаблона <a href="https://github.com/CloudCannon/vonge-jekyll-bookshop-template" target="_blank">Vonge</a> от <a href="https://cloudcannon.com/" target="_blank">CloudCannon</a>.</p>

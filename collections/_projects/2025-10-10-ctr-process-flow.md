@@ -1,81 +1,84 @@
 ---
 date: 2025-10-10 14:00:35 +0300
-title: Contract Process Workflow
-subtitle: Creating a diagram for standardization and transparency within the company.
+title: Процесс Исполнения Договора
+subtitle: Схема заключения и исполнения договора - от согласования условий до финального закрытия через бухгалтерию.
 tools: [flowchart]
 category: [process]
 tags: [flowchart, process]
 image: "/assets/projects/ctr-process-flow/cover.webp"
-lang: en
+lang: ru
 ref: ctr-process-workflow
+permalink: /projects/ctr-process-workflow/
+translated: true
 ---
 
-### Description
+### Описание
 
-This diagram represents a full lifecycle of a purchasing contract within a company: from initial agreement on terms to final reconciliation and closure.
+Эта схема — разбор полного цикла работы с договором закупки в компании: от первичного согласования условий до финального акта сверки.
 
 <div class="flow-wrapper">
   <img src="/assets/projects/ctr-process-flow/ctr-process-flowchart-part.webp" class="flowchart">
 </div>
 <p></p>
 
-### Problem
+### Проблема
 
-The main issue was the presence of “blind spots” where different departments interpreted process stages differently.
+Основная проблема - наличие "слепых зон", когда разные отделы понимали этапы по-разному.\
+Возникали вопросы как:
 
-This led to questions such as:
+- Что должно быть сделано перед подписанием договора у Генерального директора?
+- Кто ответственнен за сбор документов?
+- На каком этапе находится договор?
+- Когда договор считается закрытым?
 
-- What needs to be completed before contract approval by the General Manager?
-- Who is responsible for document collection?
-- At which stage is the contract currently?
-- When is a contract considered closed?
+### Решение
 
-### Solution
+1 - **Разобрать полный путь договора** в компании.\
+ Понять, как реально проходит процесс, чтобы повысить прозрачность между отделами и четко разграничить ответственность.
 
-1 - **Map the full contract lifecycle** within the company .\
-Understand how the process actually works in practice in order to improve transparency between departments and clearly define responsibilities.
+2 - **Описать процесс в виде swimlane-схемы**, разделив ответственность между ключевыми участниками:
 
-2 - **Describe the process as a swimlane diagram**, separating responsibilities between key stakeholders:
+- генеральный директор
+- отдел закупок
+- отдел исполнения
+- юридический отдел
+- бухгалтерия
 
-- General Manager
-- Purchase Department
-- Execution Department
-- Legal Department
-- Accounting Department
+3 - Пронумеровать шаги, чтобы по каждому договору легче было фиксировать текущий статус.
 
-3 - Numbering process steps to make it easier to track the current status of each contract.
+![Блок схема - Процесс заключения и исполнения договора закупки](/assets/projects/ctr-process-flow/ctr-process-flowchart-with-numbers.webp){: width="800" height="auto"}
 
-![Flowchart - Purchasing Contract Execution Process](/assets/projects/ctr-process-flow/ctr-process-flowchart-with-numbers.webp){: width="800" height="auto"}
+### Результат
 
-### Result
-
-- the process became visually clear and unified across all departments
-- clear ownership and responsibilities were established
-- contract status tracking became more transparent
+- процесс стал визуально понятным и единым для всех отделов
+- появились чёткие зоны ответственности
+- стал понятен статус каждого договора
 
 ---
 
-### Process Description
+### Описание процесса
 
-The process starts when a new purchasing contract needs to be created.
+Процесс запускается при необходимости заключения нового договора на поставку.
 
-1. **Initiation and preliminary alignment (Purchase Department)**  
-   A price limit is defined and initial terms are discussed with the supplier. Feasibility of the deal is also checked, including logistical constraints.
+1. **Инициация и предварительное согласование (Purchase Department)**\
+   Определяется ценовой лимит и обсуждаются базовые условия с поставщиком. Проверяется, возможно ли в принципе реализовать сделку (в том числе с учётом логистики).
 
-2. **Supplier verification and deal preparation (Purchase + Legal)**  
-   The supplier is reviewed, risks are assessed, and contract requirements and conditions are clarified.
+2. **Проверка и подготовка сделки (Purchase + Legal)**\
+   Поставщик проверяется, оцениваются возможные риски, уточняются требования к документам и условиям договора.
 
-3. **Contract drafting (Execution + Legal)**  
-   A draft contract is prepared and iteratively aligned between internal departments and the supplier. Adjustments are made if necessary.
+3. **Формализация договора (Execution + Legal)**\
+   Формируется проект договора и согласуется между отделами и поставщиком. При необходимости вносятся правки.
 
-4. **Approval and signing (GM + Execution)**  
-   The final version of the contract is approved by the General Manager and signed by both parties.
+4. **Утверждение и подписание (GM + Execution)**\
+   Финальная версия договора утверждается и подписывается сторонами.
 
-5. **Contract execution (Execution + Accounting + Purchase)**  
-   Depending on delivery terms (EXW or CTP), different workflows are triggered:  
-   **EXW:** 100% advance payment is initiated, transportation is arranged, and delivery is monitored  
-   **CTP:** payment is processed according to contract terms  
-   After that, goods are received and supporting documents are verified.
+5. **Исполнение договора (Execution + Accounting + Purchase)**\
+   В зависимости от условий поставки (EXW или CTP) запускаются соответствующие сценарии.\
+   **EXW:** инициируются 100% предоплата, организация перевозки и контроль доставки\
+   **CTP:** оплата производится по условиям контракта\
+   Далее осуществляется контроль поставки, приёмка на склад и проверка сопроводительных документов.
 
-6. **Contract closure (Execution + Accounting + Legal)**  
-   After delivery confirmation, reconciliation is performed, closing documents are collected, and the contract is archived. In case of discrepancies or damages, a dispute resolution process is initiated.
+6. **Закрытие договора (Execution + Accounting + Legal)**\
+   После подтверждения поставки формируется акт сверки, собираются закрывающие документы и договор архивируется. В случае расхождений или повреждений запускается блок обработки спорных ситуаций и компенсаций.
+
+---

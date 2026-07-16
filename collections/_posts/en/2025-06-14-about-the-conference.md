@@ -1,17 +1,13 @@
 ---
 date: 2025-06-14 22:00:00 +3000
-title: Введение в Графы, LLM и ILP
+title: Intro to Graphs, LLM and ILP
 description: "Impressions after the Data Conference."
 tags: [AI, Math, data]
 image: /assets/posts/about-the-conference/cover.webp
-lang: ru
+lang: en
 ref: about-the-conference
-permalink: /blog/intro-to-graphs-llm-and-ilp/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/intro-to-graphs-llm-and-ilp/
+translated: true
 ---
 
 I have been to the **Data Conference** this April in Moscow. It lasted for 2 days, and I can honestly say I heard A LOT of unfamiliar words.

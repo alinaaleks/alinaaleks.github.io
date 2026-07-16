@@ -4,15 +4,15 @@ ref: "footer"
 footer_menu__settings:
   menu__items:
     - title: "Home"
-      url: "/"
+      url: "/en/"
     - title: "Projects"
-      url: "/projects/"
+      url: "/en/projects/"
     - title: "Notes"
-      url: "/blog/"
+      url: "/en/blog/"
     - title: "Resume"
-      url: "/resume/"
+      url: "/en/resume/"
     - title: "About"
-      url: "/about/"
+      url: "/en/about/"
 
 copyright_text_html: >-
   <p>2026 &copy; Alina Aleks.</p><p>Built using the <a href="https://github.com/CloudCannon/vonge-jekyll-bookshop-template" target="_blank">Vonge</a> template by <a href="https://cloudcannon.com/" target="_blank">CloudCannon</a>.</p>

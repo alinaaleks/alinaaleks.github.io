@@ -1,17 +1,13 @@
 ---
 date: 2025-03-18 11:19:00 +0300
-title: "GitHub Pages & Jekyll: Как появился мой сайт"
+title: "GitHub Pages & Jekyll: How My Website Came to Be"
 description: "This combo is 'Best for You', ChatGPT said. I decided to try &mdash; and now you're reading these words on that very setup."
 tags: [web-dev]
 image: "/assets/posts/github-pages-jekyll/cover.webp"
-lang: ru
+lang: en
 ref: github-pages-jekyll
-permalink: /blog/github-pages-jekyll-how-my-website-came-to-be/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/github-pages-jekyll-how-my-website-came-to-be/
+translated: true
 ---
 
 I just want to perpetuate this. It feels so great to have your own website. We (can’t say 'I', because ChatGPT is my mighty companion) deployed it just now and I am very happy.

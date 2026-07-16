@@ -8,6 +8,7 @@ tags: [Excel, VBA, automation]
 image: "/assets/projects/waybills-creation/cover.webp"
 lang: ru
 ref: waybills-creation
+permalink: /projects/waybills-creation/
 translated: true
 ---
 

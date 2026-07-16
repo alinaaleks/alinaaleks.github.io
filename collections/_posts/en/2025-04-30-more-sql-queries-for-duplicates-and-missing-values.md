@@ -1,17 +1,13 @@
 ---
 date: 2025-04-30 11:19:00 +0300
-title: "Еще SQL: Запросы для повторяющихся и пропущенных значений"
+title: "More SQL: Queries for Duplicates and Missing Values"
 description: "When faced with real-world, less-than-perfect data..."
 tags: [SQL, data]
 image: "/assets/posts/more-sql/cover.webp"
-lang: ru
+lang: en
 ref: more-sql
-permalink: /blog/more-sql-queries-for-duplicates-and-missing-values/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/more-sql-queries-for-duplicates-and-missing-values/
+translated: true
 ---
 
 Some of the courses I've tried in data analytics use clean data to work with, which is nice, yet utopian :) That's why whenever I see 'data cleaning' mentioned somewhere, I'm all ears.

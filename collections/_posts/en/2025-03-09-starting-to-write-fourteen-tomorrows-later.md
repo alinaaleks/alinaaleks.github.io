@@ -1,18 +1,14 @@
 ---
 date: 2025-03-09 07:00:00 +3000
-title: Начинаю писать — 14 дней спустя
+title: Starting to Write — 14 Tomorrows Later
 description: >-
   On finally putting my thoughts into words &mdash; and how Elvis makes me believe in endless possibilities.
 tags: [writing, musings]
 image: /assets/posts/starting-to-write/cover.webp
-lang: ru
+lang: en
 ref: starting-to-write
-permalink: /blog/starting-to-write-fourteen-tomorrows-later/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/starting-to-write-fourteen-tomorrows-later/
+translated: true
 ---
 
 It’s interesting **how we sometimes need reminders even about our important decisions.** This post serves as a reminder of why I decided to start writing.

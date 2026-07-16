@@ -1,17 +1,13 @@
 ---
 date: 2025-04-23 23:19:00 +0300
-title: "SQL Памятки: Порядок исполнения, JOINs, Логические операторы"
+title: "SQL Memos: Order, Joins, Logical Operators"
 description: "Basic SQL references I keep coming to again and again."
 tags: [SQL, quick-ref]
 image: "/assets/posts/sql-memos/cover.webp"
-lang: ru
+lang: en
 ref: sql-memos
-permalink: /blog/sql-memos-order-joins-logical-operators/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/sql-memos-order-joins-logical-operators/
+translated: true
 ---
 
 It's going to be an infographic post.

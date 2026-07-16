@@ -1,18 +1,14 @@
 ---
 date: 2025-02-27 22:00:00 +3000
-title: Прежде чем планировать свой день, спланируй свою жизнь
+title: Before Planning Your Day, Plan Your Life
 description: >-
   From vision - through planning - into the action.
 tags: [planning, quick-ref]
 image: /assets/posts/before-planning-your-day/cover.webp
-lang: ru
+lang: en
 ref: before-planning-your-day
-permalink: /blog/before-planning-your-day-plan-your-life/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/before-planning-your-day-plan-your-life/
+translated: true
 ---
 
 I try **not to do things unless I understand _why_ I’m doing them.** While I don’t have complete clarity in all areas at all times, I do in some, and I focus on those. For the _cloudy_ areas, I work on bringing clarity. One helpful approach I use is **top-to-bottom planning**. Or **backwards engineering.** Sounds more techy :)

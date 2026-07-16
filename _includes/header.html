@@ -5,8 +5,8 @@
       <div class="c-header__inner">
 
         {% assign current_lang = page.lang | default: site.default_lang %}
-        {% if current_lang == "ru" %}
-  {% assign home_url = "/ru/" %}
+        {% if current_lang == "en" %}
+  {% assign home_url = "/en/" %}
 {% else %}
   {% assign home_url = "/" %}
 {% endif %}

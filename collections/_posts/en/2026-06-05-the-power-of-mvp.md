@@ -1,17 +1,13 @@
 ---
 date: 2026-06-05 09:00:00 +3000
-title: "Сила MVP"
+title: "The Power of MVP"
 description: "Breaking the perfectionism loop by shipping imperfect work."
 tags: [MVP, musings]
 image: /assets/posts/the-power-of-mvp/cover.webp
-lang: ru
+lang: en
 ref: the-power-of-mvp
-permalink: /blog/the-power-of-mvp/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/the-power-of-mvp/
+translated: true
 ---
 
 I tend to go big, make it perfect. Planning and creating a big picture with all the details takes so much energy that there's little left for execution.

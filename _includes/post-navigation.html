@@ -1,31 +1,77 @@
+{% assign current_lang = page.lang | default: site.default_lang %}
+
+{% assign posts_sorted = site.posts | sort: "date" | reverse %}
+{% assign same_lang_posts = posts_sorted | where: "lang", current_lang %}
+
+{% for post in same_lang_posts %}
+  {% if post.url == page.url %}
+    {% assign index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% assign prev_index = index | plus: 1 %}
+{% assign next_index = index | minus: 1 %}
+
 <div class="post__navigation animate">
 
-  {% if page.previous.url %}
-  <a class="post__prev" href="{{ page.previous.url }}">
-    {% if page.previous.image %}
-    <div class="prev__image">
-      <img loading="lazy" src="{{ site.baseurl }}{{ page.previous.image }}" alt="{{ page.previous.title }}">
-    </div>
-    {% endif %}
-    <div class="prev__box">
-      <span class="post__nav post__nav__prev">Prev post</span>
-      <h2 class="post__nav__title">{{ page.previous.title }}</h2>
-    </div>
-  </a>
+  {%- comment -%} Previous = older post {%- endcomment -%}
+  {% if prev_index < same_lang_posts.size %}
+    {% assign prev_post = same_lang_posts[prev_index] %}
+
+    <a class="post__prev" href="{{ prev_post.url }}">
+      {% if prev_post.image %}
+      <div class="prev__image">
+        <img
+          loading="lazy"
+          src="{{ site.baseurl }}{{ prev_post.image }}"
+          alt="{{ prev_post.title }}">
+      </div>
+      {% endif %}
+
+      <div class="prev__box">
+        <span class="post__nav post__nav__prev">
+          {% if current_lang == "ru" %}
+            Предыдущая заметка
+          {% else %}
+            Previous post
+          {% endif %}
+        </span>
+
+        <h2 class="post__nav__title">
+          {{ prev_post.title }}
+        </h2>
+      </div>
+    </a>
   {% endif %}
 
-  {% if page.next.url %}
-  <a class="post__next" href="{{ page.next.url }}">
-    <div class="next__box">
-      <span class="post__nav post__nav__next">Next post</span>
-      <h2 class="post__nav__title">{{ page.next.title }}</h2>
-    </div>
-    {% if page.next.image %}
-    <div class="next__image">
-      <img loading="lazy" src="{{ site.baseurl }}{{ page.next.image }}" alt="{{ page.next.title }}">
-    </div>
-    {% endif %}
-  </a>
+  {%- comment -%} Next = newer post {%- endcomment -%}
+  {% if next_index >= 0 %}
+    {% assign next_post = same_lang_posts[next_index] %}
+
+    <a class="post__next" href="{{ next_post.url }}">
+      <div class="next__box">
+        <span class="post__nav post__nav__next">
+          {% if current_lang == "ru" %}
+            Следующая заметка
+          {% else %}
+            Next post
+          {% endif %}
+        </span>
+
+        <h2 class="post__nav__title">
+          {{ next_post.title }}
+        </h2>
+      </div>
+
+      {% if next_post.image %}
+      <div class="next__image">
+        <img
+          loading="lazy"
+          src="{{ site.baseurl }}{{ next_post.image }}"
+          alt="{{ next_post.title }}">
+      </div>
+      {% endif %}
+    </a>
   {% endif %}
 
 </div>

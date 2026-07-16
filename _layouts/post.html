@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign current_lang = page.lang | default: site.default_lang %}
+
 <div class="post-top">
   <div class="container">
     <div class="row">
@@ -17,13 +19,26 @@ layout: default
       <div class="col col-6 col-d-12">
         <div class="post__info">
 
-          {% if page.tags.size >= 1 %}
-          <div class="post-tags">
-            {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="post-tags__tag">{{ tag }}</a>
-            {% endfor %}
-          </div>
-          {% endif %}
+{% if page.tags.size >= 1 %}
+<div class="post-tags">
+  {% for tag in page.tags %}
+    {% assign tag_slug = tag | slugify %}
+    {% assign tag_key = tag | downcase %}
+    {% assign localized_tag = site.data.tags[tag_key][current_lang] | default: tag %}
+    {% assign tag_type = site.data.tags[tag_key].type | default: "category" %}
+
+    <a href="{% if current_lang == 'ru' %}
+              {{ site.baseurl }}/tag/{{ tag_slug }}
+             {% else %}
+              {{ site.baseurl }}/en/tag/{{ tag_slug }}
+             {% endif %}"
+       class="tag tag--{{ tag_type }}">
+      {{ localized_tag }}
+    </a>
+
+  {% endfor %}
+</div>
+{% endif %}
 
 
           <h1 class="post__title">{{ page.title | escape }}</h1>

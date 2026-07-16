@@ -1,17 +1,13 @@
 ---
 date: 2026-02-16 12:00:00 +3000
-title: "Навыки хакера: как эффективнее использовать клавиатуру"
+title: "Hacker Skills: Using Your Keyboard More Efficiently"
 description: "Going beyond Ctrl-C and Ctrl-V to make daily work faster."
 tags: [quick-ref]
 image: /assets/posts/hacker-skills/cover.webp
-lang: ru
+lang: en
 ref: hacker-skills
-permalink: /blog/hacker-skills-using-your-keyboard-more-efficiently/
-translated: false
----
-
-Перевод скоро появится!
-
+permalink: /en/blog/hacker-skills-using-your-keyboard-more-efficiently/
+translated: true
 ---
 
 I’ve always admired people who live almost entirely on their keyboard. I was the first in my circle to master **Ctrl-C** and **Ctrl-V** 😎. Add **Ctrl-X** and **Ctrl-A**, and I felt like a keyboard ninja. 😄
