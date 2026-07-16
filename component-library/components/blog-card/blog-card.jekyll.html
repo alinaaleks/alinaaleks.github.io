@@ -12,13 +12,31 @@
 
     <div class="{{c}}__content">
 
-      {% if include.post.tags.size >= 1 %}
-      <div class="{{c}}__tags-box">
-        {% for tag in include.post.tags %}
-        <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="{{c}}__tag">{{ tag }}</a>
-        {% endfor %}
-      </div>
-      {% endif %}
+{% if include.post.tags.size >= 1 %}
+<div class="{{c}}__tags-box">
+
+  {% assign current_lang = page.lang | default: site.default_lang %}
+
+  {% for tag in include.post.tags %}
+
+    {% assign tag_slug = tag | slugify %}
+    {% assign tag_key = tag | downcase %}
+    {% assign localized_tag = site.data.tags[tag_key][current_lang] | default: tag %}
+    {% assign tag_type = site.data.tags[tag_key].type | default: "category" %}
+
+    <a href="{% if current_lang == 'ru' %}
+              {{ site.baseurl }}/tag/{{ tag_slug }}
+             {% else %}
+              {{ site.baseurl }}/en/tag/{{ tag_slug }}
+             {% endif %}"
+       class="tag tag--{{ tag_type }}"">
+      {{ localized_tag }}
+    </a>
+
+  {% endfor %}
+
+</div>
+{% endif %}
 
       <h2 class="{{c}}__title">
         <a href="{{ include.post.url }}">{{ include.post.title }}</a>

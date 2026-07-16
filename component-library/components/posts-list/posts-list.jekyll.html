@@ -1,9 +1,19 @@
 {% if include.show_posts %}
 <div class="container animate">
   <div class="row" data-pagebreak="6">
-    {% for post in site.posts %}
+
+    {% assign posts_sorted = site.posts | sort: "date" | reverse %}
+    {% assign current_lang = page.lang | default: site.default_lang %}
+    {% assign filtered_posts = posts_sorted | where: "lang", current_lang %}
+
+    {% for post in filtered_posts %}
       {% bookshop blog-card post=post %}
     {% endfor %}
+
+    {% if filtered_posts.size == 0 %}
+      <p>No posts available in this language yet.</p>
+    {% endif %}
+
   </div>
 </div>
 
